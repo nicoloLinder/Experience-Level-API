@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebbfe202-8913-407c-a8a0-c0adc08f1e47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/bin/Debug/Gbanga_Test.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/bin/Debug/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/src/Entity/BaseEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/src/Entity/EntityDB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/src/ExperienceAPI/ExperienceAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/src/ExperienceAPI/ExperienceLevelFormula.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/src/ExperienceAPI/LinearExperienceLevelFormula.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gbanga Test/src/ExperienceAPI/SquareExperienceLevelFormula.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityTests/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityTests/Tests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityTests/bin/Debug/Gbanga_Test.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityTests/bin/Debug/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityTests/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityTests/bin/Debug/UnityTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityTests/bin/Debug/nunit.framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityTests/bin/Debug/nunit.framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityTests/packages.config" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitTests/Tests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+              <folding>
+                <marker date="1559242458204" expanded="true" signature="6:88" ph="..." />
+                <marker date="1559242458204" expanded="true" signature="110:5727" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="153:5725" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="187:245" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="309:752" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="807:1239" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="1294:1850" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="1921:2178" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="2249:2504" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="2568:2977" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="3039:3381" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="3448:3870" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="3941:4385" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="4445:5104" ph="{...}" />
+                <marker date="1559242458204" expanded="true" signature="5168:5719" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/Entity/BaseEntity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding>
+                <marker date="1559242413319" expanded="true" signature="6:34" ph="..." />
+                <marker date="1559242413319" expanded="true" signature="52:2118" ph="{...}" />
+                <marker date="1559242413319" expanded="true" signature="101:2116" ph="{...}" />
+                <marker date="1559242413319" expanded="false" signature="116:392" ph="Variables" />
+                <marker date="1559242413319" expanded="false" signature="402:1230" ph="Properties" />
+                <marker date="1559242413319" expanded="true" signature="482:562" ph="{...}" />
+                <marker date="1559242413319" expanded="true" signature="589:794" ph="{...}" />
+                <marker date="1559242413319" expanded="true" signature="642:784" ph="{...}" />
+                <marker date="1559242413319" expanded="true" signature="826:1032" ph="{...}" />
+                <marker date="1559242413319" expanded="true" signature="884:1021" ph="{...}" />
+                <marker date="1559242413319" expanded="true" signature="1094:1210" ph="{...}" />
+                <marker date="1559242413319" expanded="false" signature="1240:1935" ph="Constuctors" />
+                <marker date="1559242413319" expanded="true" signature="1288:1406" ph="{...}" />
+                <marker date="1559242413319" expanded="true" signature="1493:1601" ph="{...}" />
+                <marker date="1559242413319" expanded="true" signature="1700:1915" ph="{...}" />
+                <marker date="1559242413319" expanded="false" signature="1945:2110" ph="Methods" />
+                <marker date="1559242413319" expanded="true" signature="1994:2090" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/Entity/EntityDB.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <marker date="1559242425677" expanded="true" signature="6:106" ph="..." />
+                <marker date="1559242425677" expanded="true" signature="124:3501" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="152:3499" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="360:664" ph="/// Find an entity in the entity database ... " />
+                <marker date="1559242425677" expanded="true" signature="725:967" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="792:872" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="977:1141" ph="/// Get all the entities in the dictionary ... " />
+                <marker date="1559242425677" expanded="true" signature="1197:1271" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="1289:1585" ph="/// Delete an entity from the entity database ... " />
+                <marker date="1559242425677" expanded="true" signature="1642:1932" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="1709:1789" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="1806:1922" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="1942:2035" ph="/// Clear all the entries in the entity database ... " />
+                <marker date="1559242425677" expanded="true" signature="2078:2137" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="2147:2427" ph="/// Add an entity to the database ... " />
+                <marker date="1559242425677" expanded="true" signature="2487:2799" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="2560:2654" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="2671:2789" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="2817:2910" ph="/// Save entityDB to file (for testing purposes) ... " />
+                <marker date="1559242425677" expanded="true" signature="2950:3105" ph="{...}" />
+                <marker date="1559242425677" expanded="true" signature="3115:3210" ph="/// Load entityDB from file (for testing purposes) ... " />
+                <marker date="1559242425677" expanded="true" signature="3252:3493" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceLevelFormula.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/LinearExperienceLevelFormula.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/SquareExperienceLevelFormula.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceLevelFormula.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/SquareExperienceLevelFormula.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnitTests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/LinearExperienceLevelFormula.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Experience-Level-API/src/Entity/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Experience-Level-API/src/Entity/EntityDB.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Experience-Level-API/src/Entity/BaseEntity.cs" />
+        <option value="$PROJECT_DIR$/Experience-Level-API/src/Entity/EntityDB.cs" />
+        <option value="$PROJECT_DIR$/Experience-Level-API/src/ExperienceAPI/ExperienceLevelFormula.cs" />
+        <option value="$PROJECT_DIR$/Experience-Level-API/src/ExperienceAPI/LinearExperienceLevelFormula.cs" />
+        <option value="$PROJECT_DIR$/Experience-Level-API/src/ExperienceAPI/SquareExperienceLevelFormula.cs" />
+        <option value="$PROJECT_DIR$/UnitTests/Tests.cs" />
+        <option value="$PROJECT_DIR$/Experience-Level-API/src/ExperienceAPI/ExperienceAPI.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.Experience-Level-API/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.Experience-Level-API/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Entity" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ExperienceSystem" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebbfe202-8913-407c-a8a0-c0adc08f1e47" name="Default Changelist" comment="" />
+      <created>1559242131189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559242131189</updated>
+      <workItem from="1559242136788" duration="362000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="362000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/Entity/BaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding>
+            <marker date="1559242413319" expanded="true" signature="6:34" ph="..." />
+            <marker date="1559242413319" expanded="true" signature="52:2118" ph="{...}" />
+            <marker date="1559242413319" expanded="true" signature="101:2116" ph="{...}" />
+            <marker date="1559242413319" expanded="false" signature="116:392" ph="Variables" />
+            <marker date="1559242413319" expanded="false" signature="402:1230" ph="Properties" />
+            <marker date="1559242413319" expanded="true" signature="482:562" ph="{...}" />
+            <marker date="1559242413319" expanded="true" signature="589:794" ph="{...}" />
+            <marker date="1559242413319" expanded="true" signature="642:784" ph="{...}" />
+            <marker date="1559242413319" expanded="true" signature="826:1032" ph="{...}" />
+            <marker date="1559242413319" expanded="true" signature="884:1021" ph="{...}" />
+            <marker date="1559242413319" expanded="true" signature="1094:1210" ph="{...}" />
+            <marker date="1559242413319" expanded="false" signature="1240:1935" ph="Constuctors" />
+            <marker date="1559242413319" expanded="true" signature="1288:1406" ph="{...}" />
+            <marker date="1559242413319" expanded="true" signature="1493:1601" ph="{...}" />
+            <marker date="1559242413319" expanded="true" signature="1700:1915" ph="{...}" />
+            <marker date="1559242413319" expanded="false" signature="1945:2110" ph="Methods" />
+            <marker date="1559242413319" expanded="true" signature="1994:2090" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/Entity/EntityDB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <marker date="1559242425677" expanded="true" signature="6:106" ph="..." />
+            <marker date="1559242425677" expanded="true" signature="124:3501" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="152:3499" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="360:664" ph="/// Find an entity in the entity database ... " />
+            <marker date="1559242425677" expanded="true" signature="725:967" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="792:872" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="977:1141" ph="/// Get all the entities in the dictionary ... " />
+            <marker date="1559242425677" expanded="true" signature="1197:1271" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="1289:1585" ph="/// Delete an entity from the entity database ... " />
+            <marker date="1559242425677" expanded="true" signature="1642:1932" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="1709:1789" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="1806:1922" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="1942:2035" ph="/// Clear all the entries in the entity database ... " />
+            <marker date="1559242425677" expanded="true" signature="2078:2137" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="2147:2427" ph="/// Add an entity to the database ... " />
+            <marker date="1559242425677" expanded="true" signature="2487:2799" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="2560:2654" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="2671:2789" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="2817:2910" ph="/// Save entityDB to file (for testing purposes) ... " />
+            <marker date="1559242425677" expanded="true" signature="2950:3105" ph="{...}" />
+            <marker date="1559242425677" expanded="true" signature="3115:3210" ph="/// Load entityDB from file (for testing purposes) ... " />
+            <marker date="1559242425677" expanded="true" signature="3252:3493" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceLevelFormula.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/LinearExperienceLevelFormula.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/SquareExperienceLevelFormula.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/Tests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+          <folding>
+            <marker date="1559242458204" expanded="true" signature="6:88" ph="..." />
+            <marker date="1559242458204" expanded="true" signature="110:5727" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="153:5725" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="187:245" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="309:752" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="807:1239" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="1294:1850" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="1921:2178" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="2249:2504" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="2568:2977" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="3039:3381" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="3448:3870" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="3941:4385" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="4445:5104" ph="{...}" />
+            <marker date="1559242458204" expanded="true" signature="5168:5719" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
