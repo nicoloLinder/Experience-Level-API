@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using Entity;
+using CharacterSystem;
 using ExperienceSystem;
 using NUnit.Framework;
 
@@ -11,7 +11,7 @@ namespace UnityTests
     {
         public void Setup()
         {
-            EntityDB.ClearDatabase();
+            CharacterDB.ClearDatabase();
         }
 
         [Test]
@@ -20,11 +20,11 @@ namespace UnityTests
             Setup();
             var experienceLevelFormula = new LinearExperienceLevelFormula();
 
-            EntityDB.AddEntity(new BaseEntity("Matthew", 1, experienceLevelFormula));
-            EntityDB.AddEntity(new BaseEntity("Ezikiel", 1, experienceLevelFormula));
-            EntityDB.AddEntity(new BaseEntity("Gabriel", 1, experienceLevelFormula));
+            CharacterDB.AddCharacter(new Character("Matthew", 1, experienceLevelFormula));
+            CharacterDB.AddCharacter(new Character("Ezikiel", 1, experienceLevelFormula));
+            CharacterDB.AddCharacter(new Character("Gabriel", 1, experienceLevelFormula));
 
-            Assert.AreEqual(EntityDB.GetAllEntities().Count, 3);
+            Assert.AreEqual(CharacterDB.GetAllEntities().Count, 3);
         }
 
         [Test]
@@ -33,11 +33,11 @@ namespace UnityTests
             Setup();
             var experienceLevelFormula = new LinearExperienceLevelFormula();
 
-            EntityDB.AddEntity(new BaseEntity("Matthew", 1, experienceLevelFormula));
-            EntityDB.AddEntity(new BaseEntity("Ezikiel", 1, experienceLevelFormula));
-            EntityDB.AddEntity(new BaseEntity("Gabriel", 1, experienceLevelFormula));
+            CharacterDB.AddCharacter(new Character("Matthew", 1, experienceLevelFormula));
+            CharacterDB.AddCharacter(new Character("Ezikiel", 1, experienceLevelFormula));
+            CharacterDB.AddCharacter(new Character("Gabriel", 1, experienceLevelFormula));
 
-            Assert.DoesNotThrow(EntityDB.SaveToFile);
+            Assert.DoesNotThrow(CharacterDB.SaveToFile);
         }
 
         [Test]
@@ -46,17 +46,17 @@ namespace UnityTests
             Setup();
             var experienceLevelFormula = new LinearExperienceLevelFormula();
 
-            EntityDB.AddEntity(new BaseEntity("Matthew", 1, experienceLevelFormula));
-            EntityDB.AddEntity(new BaseEntity("Ezikiel", 1, experienceLevelFormula));
-            EntityDB.AddEntity(new BaseEntity("Gabriel", 1, experienceLevelFormula));
+            CharacterDB.AddCharacter(new Character("Matthew", 1, experienceLevelFormula));
+            CharacterDB.AddCharacter(new Character("Ezikiel", 1, experienceLevelFormula));
+            CharacterDB.AddCharacter(new Character("Gabriel", 1, experienceLevelFormula));
 
-            EntityDB.SaveToFile();
+            CharacterDB.SaveToFile();
 
-            EntityDB.ClearDatabase();
+            CharacterDB.ClearDatabase();
 
-            EntityDB.LoadFromFile();
+            CharacterDB.LoadFromFile();
 
-            Assert.AreEqual(EntityDB.GetAllEntities().Count, 3);
+            Assert.AreEqual(CharacterDB.GetAllEntities().Count, 3);
         }
 
         [Test]
@@ -81,85 +81,85 @@ namespace UnityTests
         public void TestExperienceGetSetLevel()
         {
             var experienceLevelFormula = new LinearExperienceLevelFormula();
-            var entity = new BaseEntity("Matthew", 1, experienceLevelFormula);
-            var currentLevel = entity.Level;
+            var character = new Character("Matthew", 1, experienceLevelFormula);
+            var currentLevel = character.Level;
 
-            EntityDB.AddEntity(entity);
+            CharacterDB.AddCharacter(character);
 
-            ExperienceAPI.SetCurrentLevel(entity.Id, 10);
-            Assert.AreNotEqual(ExperienceAPI.GetCurrentLevel(entity.Id), currentLevel);
+            ExperienceAPI.SetCurrentLevel(character.Id, 10);
+            Assert.AreNotEqual(ExperienceAPI.GetCurrentLevel(character.Id), currentLevel);
         }
 
         [Test]
         public void TestCalculateExperience()
         {
             var experienceLevelFormula = new LinearExperienceLevelFormula();
-            var entity = new BaseEntity("Gabriel", 1, experienceLevelFormula);
+            var character = new Character("Gabriel", 1, experienceLevelFormula);
 
-            EntityDB.AddEntity(entity);
+            CharacterDB.AddCharacter(character);
 
-            Assert.AreEqual(ExperienceAPI.CalculateExperience(entity.Id, entity.Level),
-                entity.Experience);
+            Assert.AreEqual(ExperienceAPI.CalculateExperience(character.Id, character.Level),
+                character.Experience);
         }
 
         [Test]
         public void TestCalculateExperienceDelta()
         {
             var experienceLevelFormula = new LinearExperienceLevelFormula();
-            var entity = new BaseEntity("Matthew", 1, experienceLevelFormula);
+            var character = new Character("Matthew", 1, experienceLevelFormula);
 
-            EntityDB.AddEntity(entity);
+            CharacterDB.AddCharacter(character);
 
-            var experienceDelta = experienceLevelFormula.CalculateExperience(10) - entity.Experience;
+            var experienceDelta = experienceLevelFormula.CalculateExperience(10) - character.Experience;
 
-            Assert.AreEqual(ExperienceAPI.CalculateExperienceDelta(entity.Id, 10), experienceDelta);
+            Assert.AreEqual(ExperienceAPI.CalculateExperienceDelta(character.Id, 10), experienceDelta);
         }
 
         [Test]
         public void TestCalculateRemainingExperience()
         {
             var experienceLevelFormula = new LinearExperienceLevelFormula();
-            var entity = new BaseEntity("Matthew", 1, experienceLevelFormula);
+            var character = new Character("Matthew", 1, experienceLevelFormula);
 
-            EntityDB.AddEntity(entity);
+            CharacterDB.AddCharacter(character);
 
-            var remainingExperience = experienceLevelFormula.CalculateExperience(entity.Level + 1) - entity.Experience;
+            var remainingExperience = experienceLevelFormula.CalculateExperience(character.Level + 1) - character.Experience;
 
-            Assert.AreEqual(ExperienceAPI.CalculateRemainingExperience(entity.Id), remainingExperience);
+            Assert.AreEqual(ExperienceAPI.CalculateRemainingExperience(character.Id), remainingExperience);
         }
 
         [Test]
         public void TestCalculateProgress()
         {
             var experienceLevelFormula = new SquareExperienceLevelFormula(0.1);
-            var entity = new BaseEntity("Matthew", 1, experienceLevelFormula);
+            var character = new Character("Matthew", 1, experienceLevelFormula);
 
-            EntityDB.AddEntity(entity);
+            CharacterDB.AddCharacter(character);
 
-            var nextLevelExperience = experienceLevelFormula.CalculateExperience(entity.Level + 1);
-            var lastLevelExperience = experienceLevelFormula.CalculateExperience(entity.Level);
+            var nextLevelExperience = experienceLevelFormula.CalculateExperience(character.Level + 1);
+            var lastLevelExperience = experienceLevelFormula.CalculateExperience(character.Level);
 
-            ExperienceAPI.AddExperience(entity.Id, 33);
+            ExperienceAPI.AddExperience(character.Id, 33);
 
-            Assert.AreEqual(ExperienceAPI.CalculateProgress(entity.Id),
-                (entity.Experience - lastLevelExperience) * 100 / (nextLevelExperience - lastLevelExperience));
+            Assert.AreEqual(ExperienceAPI.CalculateProgress(character.Id),
+                (character.Experience - lastLevelExperience) * 100 / (nextLevelExperience - lastLevelExperience));
         }
 
         [Test]
         public void TestAddSubtractExperience()
         {
             var experienceLevelFormula = new SquareExperienceLevelFormula(0.1);
-            var entity = new BaseEntity("Matthew", 1, experienceLevelFormula);
+            var character = new Character("Matthew", 1, experienceLevelFormula);
 
-            var currentExperience = entity.Experience;
+            var currentExperience = character.Experience;
 
-            EntityDB.AddEntity(entity);
+            CharacterDB.AddCharacter(character);
 
-            ExperienceAPI.AddExperience(entity.Id, 10);
-            Assert.AreEqual(currentExperience + 10, entity.Experience);
+            ExperienceAPI.AddExperience(character.Id, 10);
+            Assert.AreEqual(currentExperience + 10, character.Experience);
             
-            ExperienceAPI.SubtractExperience(entity.Id, 20);
-            Assert.AreEqual(currentExperience - 10, entity.Experience);
+            ExperienceAPI.SubtractExperience(character.Id, 20);
+            Assert.AreEqual(currentExperience - 10, character.Experience);
         }
     }
 }

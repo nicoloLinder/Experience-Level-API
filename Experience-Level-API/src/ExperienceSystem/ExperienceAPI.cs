@@ -1,4 +1,4 @@
-using Entity;
+using CharacterSystem;
 
 namespace ExperienceSystem
 {
@@ -7,23 +7,23 @@ namespace ExperienceSystem
         #region Get / Set Level
 
         /// <summary>
-        /// Get the current level of an entity
+        /// Get the current level of an character
         /// </summary>
-        /// <param name="entityID">The id of the entity</param>
-        /// <returns>Returns the current level of the entity</returns>
-        public static long GetCurrentLevel(string entityID)
+        /// <param name="characterID">The id of the character</param>
+        /// <returns>Returns the current level of the character</returns>
+        public static long GetCurrentLevel(string characterID)
         {
-            return EntityDB.FindEntity(entityID).Level;
+            return CharacterDB.FindCharacter(characterID).Level;
         }
 
         /// <summary>
-        /// Set the current level of an entity
+        /// Set the current level of an character
         /// </summary>
-        /// <param name="entityID">The id of the entity</param>
+        /// <param name="characterID">The id of the character</param>
         /// <param name="level">The level value to set</param>
-        public static void SetCurrentLevel(string entityID, long level)
+        public static void SetCurrentLevel(string characterID, long level)
         {
-            EntityDB.FindEntity(entityID).Level = level;
+            CharacterDB.FindCharacter(characterID).Level = level;
         }
 
         #endregion
@@ -33,24 +33,24 @@ namespace ExperienceSystem
         /// <summary>
         /// Calculate the experience amount at a given level
         /// </summary>
-        /// <param name="entityID">The ID of the entity</param>
+        /// <param name="characterID">The ID of the character</param>
         /// <param name="level">The level value to calculate the experience from</param>
         /// <returns>Returns the calculated experience amount at a given level value</returns>
-        public static long CalculateExperience(string entityID, long level)
+        public static long CalculateExperience(string characterID, long level)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            return CalculateExperience(entity, level);
+            var character = CharacterDB.FindCharacter(characterID);
+            return CalculateExperience(character, level);
         }
 
         /// <summary>
         /// Calculate the experience amount at a given level
         /// </summary>
-        /// <param name="entity">The entity</param>
+        /// <param name="character">The character</param>
         /// <param name="level">The level value to calculate the experience from</param>
         /// <returns>The calculated experience amount at a given level value</returns>
-        public static long CalculateExperience(BaseEntity entity, long level)
+        public static long CalculateExperience(Character character, long level)
         {
-            return CalculateExperience(entity.ExperienceLevelFormula, level);
+            return CalculateExperience(character.ExperienceLevelFormula, level);
         }
 
         /// <summary>
@@ -67,24 +67,24 @@ namespace ExperienceSystem
         //    CALCULATE REMAINING EXPERIENCE
 
         /// <summary>
-        /// Calculate the amount of experience needed for an entity to reach the next level
+        /// Calculate the amount of experience needed for an character to reach the next level
         /// </summary>
-        /// <param name="entityID">The entity's id/param>
+        /// <param name="characterID">The character's id/param>
         /// <returns>Returns the amount of experience needed to reach the next level</returns>
-        public static long CalculateRemainingExperience(string entityID)
+        public static long CalculateRemainingExperience(string characterID)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            return CalculateRemainingExperience(entity);
+            var character = CharacterDB.FindCharacter(characterID);
+            return CalculateRemainingExperience(character);
         }
 
         /// <summary>
-        /// Calculate the amount of experience needed for an entity to reach the next level
+        /// Calculate the amount of experience needed for an character to reach the next level
         /// </summary>
-        /// <param name="entity">The entity</param>
+        /// <param name="character">The character</param>
         /// <returns>Returns the amount of experience needed to reach the next level</returns>
-        public static long CalculateRemainingExperience(BaseEntity entity)
+        public static long CalculateRemainingExperience(Character character)
         {
-            return CalculateExperience(entity.ExperienceLevelFormula, entity.Level + 1) - entity.Experience;
+            return CalculateExperience(character.ExperienceLevelFormula, character.Level + 1) - character.Experience;
         }
 
         /// <summary>
@@ -103,51 +103,51 @@ namespace ExperienceSystem
         //    CALCULATE EXPERIENCE PROGRESS
 
         /// <summary>
-        /// Calculate an entity's experience progress to reach the next level
+        /// Calculate an character's experience progress to reach the next level
         /// </summary>
-        /// <param name="entityID">The entity's id</param>
+        /// <param name="characterID">The character's id</param>
         /// <returns>Returns the progress expressed as percentage from 0 to 100</returns>
-        public static long CalculateProgress(string entityID)
+        public static long CalculateProgress(string characterID)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            return CalculateProgress(entity);
+            var character = CharacterDB.FindCharacter(characterID);
+            return CalculateProgress(character);
         }
 
         /// <summary>
-        /// Calculate an entity's experience progress to reach the next level
+        /// Calculate an character's experience progress to reach the next level
         /// </summary>
-        /// <param name="entity">The entity</param>
+        /// <param name="character">The character</param>
         /// <returns>Returns the progress expressed as percentage from 0 to 100</returns>
-        public static long CalculateProgress(BaseEntity entity)
+        public static long CalculateProgress(Character character)
         {
-            return (entity.Experience - CalculateExperience(entity.ExperienceLevelFormula, entity.Level)) * 100 /
-                   (CalculateExperience(entity, entity.Level + 1) -
-                    CalculateExperience(entity.ExperienceLevelFormula, entity.Level));
+            return (character.Experience - CalculateExperience(character.ExperienceLevelFormula, character.Level)) * 100 /
+                   (CalculateExperience(character, character.Level + 1) -
+                    CalculateExperience(character.ExperienceLevelFormula, character.Level));
         }
 
         //    CALCULATE EXPERIENCE DELTA
 
         /// <summary>
-        /// Calculate the experience delta between an entity's current experience amount and an arbitrary level
+        /// Calculate the experience delta between an character's current experience amount and an arbitrary level
         /// </summary>
-        /// <param name="entityID">The entity's id</param>
+        /// <param name="characterID">The character's id</param>
         /// <param name="level">The level value to calculate to</param>
         /// <returns>The experience amount delta</returns>
-        public static long CalculateExperienceDelta(string entityID, long level)
+        public static long CalculateExperienceDelta(string characterID, long level)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            return CalculateExperienceDelta(entity, level);
+            var character = CharacterDB.FindCharacter(characterID);
+            return CalculateExperienceDelta(character, level);
         }
 
         /// <summary>
-        /// Calculate the experience delta between an entity's current experience amount and an arbitrary level
+        /// Calculate the experience delta between an character's current experience amount and an arbitrary level
         /// </summary>
-        /// <param name="entity">The entity</param>
+        /// <param name="character">The character</param>
         /// <param name="level">The level value to calculate to</param>
         /// <returns>The experience amount delta</returns>
-        public static long CalculateExperienceDelta(BaseEntity entity, long level)
+        public static long CalculateExperienceDelta(Character character, long level)
         {
-            return CalculateExperience(entity.ExperienceLevelFormula, level) - entity.Experience;
+            return CalculateExperience(character.ExperienceLevelFormula, level) - character.Experience;
         }
 
         /// <summary>
@@ -170,30 +170,30 @@ namespace ExperienceSystem
         //    CALCULATE LEVEL
 
         /// <summary>
-        /// Calculate the level an entity would have at a given experience amount
+        /// Calculate the level an character would have at a given experience amount
         /// </summary>
-        /// <param name="entityID">The entity's id</param>
+        /// <param name="characterID">The character's id</param>
         /// <param name="experience">The experience amount to calculate</param>
         /// <returns>Returns the calculated level value at a given experience amount</returns>
-        public static long CalculateLevel(string entityID, long experience)
+        public static long CalculateLevel(string characterID, long experience)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            return CalculateLevel(entity, experience);
+            var character = CharacterDB.FindCharacter(characterID);
+            return CalculateLevel(character, experience);
         }
 
         /// <summary>
-        /// Calculate the level an entity would have at a given experience amount
+        /// Calculate the level an character would have at a given experience amount
         /// </summary>
-        /// <param name="entity">The entity</param>
+        /// <param name="character">The character</param>
         /// <param name="experience">The experience amount</param>
         /// <returns>Returns the calculated level value at a given experience amount</returns>
-        public static long CalculateLevel(BaseEntity entity, long experience)
+        public static long CalculateLevel(Character character, long experience)
         {
-            return CalculateLevel(entity.ExperienceLevelFormula, experience);
+            return CalculateLevel(character.ExperienceLevelFormula, experience);
         }
 
         /// <summary>
-        /// Calculate the level an entity would have at a given experience amount
+        /// Calculate the level an character would have at a given experience amount
         /// </summary>
         /// <param name="experienceLevelFormula">The experience-level conversion formula</param>
         /// <param name="experience">The experience amount</param>
@@ -208,66 +208,66 @@ namespace ExperienceSystem
         #region Experience Change
 
         /// <summary>
-        /// Add an experience amount to an entity
+        /// Add an experience amount to an character
         /// </summary>
-        /// <param name="entityID">The entity's id</param>
+        /// <param name="characterID">The character's id</param>
         /// <param name="experienceToAdd">The amount of experience to add</param>
-        public static void AddExperience(string entityID, long experienceToAdd)
+        public static void AddExperience(string characterID, long experienceToAdd)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            AddExperience(entity, experienceToAdd);
+            var character = CharacterDB.FindCharacter(characterID);
+            AddExperience(character, experienceToAdd);
         }
 
         /// <summary>
-        /// Add an experience amount to an entity
+        /// Add an experience amount to an character
         /// </summary>
-        /// <param name="entity">The entity</param>
+        /// <param name="character">The character</param>
         /// <param name="experienceToAdd">The amount of experience to add</param>
-        public static void AddExperience(BaseEntity entity, long experienceToAdd)
+        public static void AddExperience(Character character, long experienceToAdd)
         {
-            ChangeExperience(entity, experienceToAdd);
+            ChangeExperience(character, experienceToAdd);
         }
 
         /// <summary>
-        /// Subtract an experience amount from an entity
+        /// Subtract an experience amount from an character
         /// </summary>
-        /// <param name="entityID">The entity's id</param>
+        /// <param name="characterID">The character's id</param>
         /// <param name="experienceToAdd">The amount of experience to add</param>
-        public static void SubtractExperience(string entityID, long experienceToRemove)
+        public static void SubtractExperience(string characterID, long experienceToRemove)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            SubtractExperience(entity, experienceToRemove);
+            var character = CharacterDB.FindCharacter(characterID);
+            SubtractExperience(character, experienceToRemove);
         }
 
         /// <summary>
-        /// Subtract an experience amount from an entity
+        /// Subtract an experience amount from an character
         /// </summary>
-        /// <param name="entityID">The entity's id</param>
+        /// <param name="characterID">The character's id</param>
         /// <param name="experienceToAdd">The amount of experience to add</param>
-        public static void SubtractExperience(BaseEntity entity, long experienceToRemove)
+        public static void SubtractExperience(Character character, long experienceToRemove)
         {
-            ChangeExperience(entity, -experienceToRemove);
+            ChangeExperience(character, -experienceToRemove);
         }
 
         /// <summary>
-        /// Change an entity's experience amount
+        /// Change an character's experience amount
         /// </summary>
-        /// <param name="entityID">The entity's id</param>
+        /// <param name="characterID">The character's id</param>
         /// <param name="experienceChange">The change of experience/param>
-        public static void ChangeExperience(string entityID, long experienceChange)
+        public static void ChangeExperience(string characterID, long experienceChange)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            ChangeExperience(entity, experienceChange);
+            var character = CharacterDB.FindCharacter(characterID);
+            ChangeExperience(character, experienceChange);
         }
 
         /// <summary>
-        /// Change an entity's experience amount
+        /// Change an character's experience amount
         /// </summary>
-        /// <param name="entity">The entity</param>
+        /// <param name="character">The character</param>
         /// <param name="experienceChange">The change of experience</param>
-        public static void ChangeExperience(BaseEntity entity, long experienceChange)
+        public static void ChangeExperience(Character character, long experienceChange)
         {
-            entity.Experience += experienceChange;
+            character.Experience += experienceChange;
         }
 
         #endregion
@@ -275,43 +275,43 @@ namespace ExperienceSystem
         #region Expreience Reset
 
         /// <summary>
-        /// Reset an entity's experience to the last level-up
+        /// Reset an character's experience to the last level-up
         /// </summary>
-        /// <param name="entityID">The entity's id</param>
-        public static void ResetExperience(string entityID)
+        /// <param name="characterID">The character's id</param>
+        public static void ResetExperience(string characterID)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            ResetExperience(entity, entity.Level);
+            var character = CharacterDB.FindCharacter(characterID);
+            ResetExperience(character, character.Level);
         }
 
         /// <summary>
-        /// Reset an entity's experience to an arbitrary level
+        /// Reset an character's experience to an arbitrary level
         /// </summary>
-        /// <param name="entityID">The entity's id</param>
+        /// <param name="characterID">The character's id</param>
         /// <param name="level">The level value to reset to</param>
-        public static void ResetExperience(string entityID, long level)
+        public static void ResetExperience(string characterID, long level)
         {
-            var entity = EntityDB.FindEntity(entityID);
-            ResetExperience(entity, level);
+            var character = CharacterDB.FindCharacter(characterID);
+            ResetExperience(character, level);
         }
 
         /// <summary>
-        /// Reset an entity's experience to the last level-up
+        /// Reset an character's experience to the last level-up
         /// </summary>
-        /// <param name="entity">The entity</param>
-        public static void ResetExperience(BaseEntity entity)
+        /// <param name="character">The character</param>
+        public static void ResetExperience(Character character)
         {
-            ResetExperience(entity, entity.Level);
+            ResetExperience(character, character.Level);
         }
 
         /// <summary>
-        /// Reset an entity's experience to an arbitrary level
+        /// Reset an character's experience to an arbitrary level
         /// </summary>
-        /// <param name="entity">The entity</param>
+        /// <param name="character">The character</param>
         /// <param name="level">The level value to reset to</param>
-        public static void ResetExperience(BaseEntity entity, long level)
+        public static void ResetExperience(Character character, long level)
         {
-            entity.Experience = CalculateExperience(entity.ExperienceLevelFormula, level);
+            character.Experience = CalculateExperience(character.ExperienceLevelFormula, level);
         }
 
         #endregion

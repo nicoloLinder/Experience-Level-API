@@ -1,10 +1,10 @@
 using System;
 using ExperienceSystem;
 
-namespace Entity
+namespace CharacterSystem
 {
     [Serializable]
-    public class BaseEntity
+    public class Character
     {
         #region Variables
         
@@ -56,19 +56,19 @@ namespace Entity
 
         #region Constuctors
 
-        public BaseEntity()
+        public Character()
         {
             _name = "";
             _experienceLevelFormula = new LinearExperienceLevelFormula();
         }
 
-        public BaseEntity(string name, ExperienceLevelFormula experienceLevelFormula)
+        public Character(string name, ExperienceLevelFormula experienceLevelFormula)
         {
             _name = name;
             _experienceLevelFormula = experienceLevelFormula;
         }
 
-        public BaseEntity(string name, long level, ExperienceLevelFormula experienceLevelFormula)
+        public Character(string name, long level, ExperienceLevelFormula experienceLevelFormula)
         {
             _name = name;
             _experienceLevelFormula = experienceLevelFormula;
