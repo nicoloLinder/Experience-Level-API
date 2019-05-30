@@ -14,11 +14,11 @@ namespace CharacterSystem
         private static Dictionary<string, Character> _characterDictionary = new Dictionary<string, Character>();
 
         /// <summary>
-        /// Find an character in the character database
+        /// Find a character in the character database
         /// </summary>
         /// <param name="characterID">The id of the character to find</param>
         /// <returns></returns>
-        /// <exception cref="Exception">Thrown when an characterID not present in the database is passed</exception>
+        /// <exception cref="Exception">Thrown when a characterID not present in the database is passed</exception>
         public static Character FindCharacter(string characterID)
         {
             if (_characterDictionary.ContainsKey(characterID))
@@ -39,10 +39,10 @@ namespace CharacterSystem
         }
         
         /// <summary>
-        /// Delete an character from the character database
+        /// Delete a character from the character database
         /// </summary>
         /// <param name="characterID">The id of the character to delete from the database</param>
-        /// <exception cref="Exception">Thrown when an characterID not present in the database is passed</exception>
+        /// <exception cref="Exception">Thrown when a characterID not present in the database is passed</exception>
         public static void DeleteCharacter(string characterID)
         {
             if (_characterDictionary.ContainsKey(characterID))
@@ -64,10 +64,10 @@ namespace CharacterSystem
         }
 
         /// <summary>
-        /// Add an character to the database
+        /// Add a character to the database
         /// </summary>
         /// <param name="character">The character to be added to the database</param>
-        /// <exception cref="Exception">Thrown when an characterID already present in the database is passed</exception>
+        /// <exception cref="Exception">Thrown when a characterID already present in the database is passed</exception>
         public static void AddCharacter(Character character)
         {
             if (!_characterDictionary.ContainsKey(character.Id))

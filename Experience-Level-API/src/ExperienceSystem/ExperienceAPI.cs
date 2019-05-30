@@ -67,7 +67,7 @@ namespace ExperienceSystem
         //    CALCULATE REMAINING EXPERIENCE
 
         /// <summary>
-        /// Calculate the amount of experience needed for an character to reach the next level
+        /// Calculate the amount of experience needed for a character to reach the next level
         /// </summary>
         /// <param name="characterID">The character's id/param>
         /// <returns>Returns the amount of experience needed to reach the next level</returns>
@@ -78,7 +78,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Calculate the amount of experience needed for an character to reach the next level
+        /// Calculate the amount of experience needed for a character to reach the next level
         /// </summary>
         /// <param name="character">The character</param>
         /// <returns>Returns the amount of experience needed to reach the next level</returns>
@@ -88,7 +88,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Calculate the amount of experience needed to reach the next level given an experience-level conversion formula and the current experience amount
+        /// Calculate the amount of experience needed to reach the next level given a experience-level conversion formula and the current experience amount
         /// </summary>
         /// <param name="experienceLevelFormula">The experience-level conversion formula</param>
         /// <param name="currentExperience">The current experience amount</param>
@@ -103,7 +103,7 @@ namespace ExperienceSystem
         //    CALCULATE EXPERIENCE PROGRESS
 
         /// <summary>
-        /// Calculate an character's experience progress to reach the next level
+        /// Calculate a character's experience progress to reach the next level
         /// </summary>
         /// <param name="characterID">The character's id</param>
         /// <returns>Returns the progress expressed as percentage from 0 to 100</returns>
@@ -114,7 +114,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Calculate an character's experience progress to reach the next level
+        /// Calculate a character's experience progress to reach the next level
         /// </summary>
         /// <param name="character">The character</param>
         /// <returns>Returns the progress expressed as percentage from 0 to 100</returns>
@@ -128,7 +128,7 @@ namespace ExperienceSystem
         //    CALCULATE EXPERIENCE DELTA
 
         /// <summary>
-        /// Calculate the experience delta between an character's current experience amount and an arbitrary level
+        /// Calculate the experience delta between a character's current experience amount and an arbitrary level
         /// </summary>
         /// <param name="characterID">The character's id</param>
         /// <param name="level">The level value to calculate to</param>
@@ -140,7 +140,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Calculate the experience delta between an character's current experience amount and an arbitrary level
+        /// Calculate the experience delta between a character's current experience amount and an arbitrary level
         /// </summary>
         /// <param name="character">The character</param>
         /// <param name="level">The level value to calculate to</param>
@@ -170,7 +170,7 @@ namespace ExperienceSystem
         //    CALCULATE LEVEL
 
         /// <summary>
-        /// Calculate the level an character would have at a given experience amount
+        /// Calculate the level a character would have at a given experience amount
         /// </summary>
         /// <param name="characterID">The character's id</param>
         /// <param name="experience">The experience amount to calculate</param>
@@ -182,7 +182,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Calculate the level an character would have at a given experience amount
+        /// Calculate the level a character would have at a given experience amount
         /// </summary>
         /// <param name="character">The character</param>
         /// <param name="experience">The experience amount</param>
@@ -193,7 +193,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Calculate the level an character would have at a given experience amount
+        /// Calculate the level a character would have at a given experience amount
         /// </summary>
         /// <param name="experienceLevelFormula">The experience-level conversion formula</param>
         /// <param name="experience">The experience amount</param>
@@ -208,7 +208,7 @@ namespace ExperienceSystem
         #region Experience Change
 
         /// <summary>
-        /// Add an experience amount to an character
+        /// Add an experience amount to a character
         /// </summary>
         /// <param name="characterID">The character's id</param>
         /// <param name="experienceToAdd">The amount of experience to add</param>
@@ -219,7 +219,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Add an experience amount to an character
+        /// Add an experience amount to a character
         /// </summary>
         /// <param name="character">The character</param>
         /// <param name="experienceToAdd">The amount of experience to add</param>
@@ -229,7 +229,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Subtract an experience amount from an character
+        /// Subtract an experience amount from a character
         /// </summary>
         /// <param name="characterID">The character's id</param>
         /// <param name="experienceToAdd">The amount of experience to add</param>
@@ -240,7 +240,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Subtract an experience amount from an character
+        /// Subtract an experience amount from a character
         /// </summary>
         /// <param name="characterID">The character's id</param>
         /// <param name="experienceToAdd">The amount of experience to add</param>
@@ -250,7 +250,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Change an character's experience amount
+        /// Change a character's experience amount
         /// </summary>
         /// <param name="characterID">The character's id</param>
         /// <param name="experienceChange">The change of experience/param>
@@ -261,7 +261,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Change an character's experience amount
+        /// Change a character's experience amount
         /// </summary>
         /// <param name="character">The character</param>
         /// <param name="experienceChange">The change of experience</param>
@@ -275,7 +275,7 @@ namespace ExperienceSystem
         #region Expreience Reset
 
         /// <summary>
-        /// Reset an character's experience to the last level-up
+        /// Reset a character's experience to the last level-up
         /// </summary>
         /// <param name="characterID">The character's id</param>
         public static void ResetExperience(string characterID)
@@ -285,7 +285,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Reset an character's experience to an arbitrary level
+        /// Reset a character's experience to an arbitrary level
         /// </summary>
         /// <param name="characterID">The character's id</param>
         /// <param name="level">The level value to reset to</param>
@@ -296,7 +296,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Reset an character's experience to the last level-up
+        /// Reset a character's experience to the last level-up
         /// </summary>
         /// <param name="character">The character</param>
         public static void ResetExperience(Character character)
@@ -305,7 +305,7 @@ namespace ExperienceSystem
         }
 
         /// <summary>
-        /// Reset an character's experience to an arbitrary level
+        /// Reset a character's experience to an arbitrary level
         /// </summary>
         /// <param name="character">The character</param>
         /// <param name="level">The level value to reset to</param>
