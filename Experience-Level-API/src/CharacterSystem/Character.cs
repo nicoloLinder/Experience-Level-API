@@ -6,19 +6,27 @@ namespace CharacterSystem
     [Serializable]
     public class Character
     {
+        #region Methods
+
+        public string ToString()
+        {
+            return Id + "\n" + _name + "\n" + _level + "\n" + _experience;
+        }
+
+        #endregion
+
         #region Variables
-        
-        private readonly string _id = Guid.NewGuid().ToString();
+
         private string _name;
         private long _level;
         private long _experience;
         private ExperienceLevelFormula _experienceLevelFormula;
-        
+
         #endregion
 
         #region Properties
 
-        public string Id => _id;
+        public string Id { get; } = Guid.NewGuid().ToString();
 
         public string Name
         {
@@ -43,7 +51,7 @@ namespace CharacterSystem
             {
                 _experience = value;
                 _level = _experienceLevelFormula.CalculateLevel(value);
-            } 
+            }
         }
 
         public ExperienceLevelFormula ExperienceLevelFormula
@@ -74,15 +82,6 @@ namespace CharacterSystem
             _experienceLevelFormula = experienceLevelFormula;
             _level = level;
             _experience = _experienceLevelFormula.CalculateExperience(_level);
-        }
-
-        #endregion
-
-        #region Methods
-
-        public string ToString()
-        {
-            return _id + "\n" + _name + "\n" + _level + "\n" + _experience;
         }
 
         #endregion
