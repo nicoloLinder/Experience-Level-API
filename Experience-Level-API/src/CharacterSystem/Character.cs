@@ -10,7 +10,7 @@ namespace CharacterSystem
 
         public string ToString()
         {
-            return ID + "\n" + _name + "\n" + _level + "\n" + _experience;
+            return $"{_name}\nLVL {_level}\n{_experience} XP";
         }
 
         #endregion
