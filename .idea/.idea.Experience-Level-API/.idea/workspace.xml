@@ -10,11 +10,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/CharacterDB.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding>
+                <marker date="1559402782570" expanded="true" signature="6:66" ph="..." />
+                <marker date="1559402782570" expanded="true" signature="67:110" ph="/* using Newtonsoft.Json; ... */" />
+                <marker date="1559402782570" expanded="true" signature="137:3491" ph="{...}" />
+                <marker date="1559402782570" expanded="true" signature="175:3489" ph="{...}" />
+                <marker date="1559402782570" expanded="true" signature="370:691" ph="///     Find a character in the character database ... " />
+                <marker date="1559402782570" expanded="true" signature="757:970" ph="{...}" />
+                <marker date="1559402782570" expanded="true" signature="980:1148" ph="///     Get all the entities in the dictionary ... " />
+                <marker date="1559402782570" expanded="true" signature="1203:1280" ph="{...}" />
+                <marker date="1559402782570" expanded="true" signature="1290:1603" ph="///     Delete a character from the character database ... " />
+                <marker date="1559402782570" expanded="true" signature="1666:1915" ph="{...}" />
+                <marker date="1559402782570" expanded="true" signature="1925:2025" ph="///     Clear all the entries in the character database ... " />
+                <marker date="1559402782570" expanded="true" signature="2068:2130" ph="{...}" />
+                <marker date="1559402782570" expanded="true" signature="2140:2430" ph="///     Add a character to the database ... " />
+                <marker date="1559402782570" expanded="true" signature="2491:2749" ph="{...}" />
+                <marker date="1559402782570" expanded="true" signature="2751:3483" ph="/*        ///     Save characterDB to file (for testing purposes) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="18">
+              <first_editor relative-caret-position="900">
                 <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
               </first_editor>
               <second_editor />
@@ -40,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/Character.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="198">
               <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <marker date="1559400466953" expanded="true" signature="6:37" ph="..." />
@@ -137,28 +163,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitTests/Tests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="-93">
+              <caret line="111" column="14" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
               <folding>
-                <marker date="1559401013599" expanded="true" signature="6:69" ph="..." />
-                <marker date="1559401013599" expanded="true" signature="90:5808" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="133:5806" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="167:228" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="292:671" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="735:1247" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="1309:1621" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="1688:2074" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="2134:2766" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="2837:3264" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="3328:3704" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="3775:4030" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="4085:4586" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="4641:5009" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="5080:5337" ph="{...}" />
-                <marker date="1559401013599" expanded="true" signature="5399:5800" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="6:69" ph="..." />
+                <marker date="1559402713679" expanded="true" signature="90:5870" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="133:5868" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="167:228" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="292:671" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="735:1247" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="1309:1621" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="1688:2074" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="2134:2766" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="2837:3264" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="3328:3704" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="3775:4030" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="4032:5071" ph="/* [Test] ... */" />
+                <marker date="1559402713679" expanded="true" signature="5142:5399" ph="{...}" />
+                <marker date="1559402713679" expanded="true" signature="5461:5862" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -193,6 +218,7 @@
       <find>region</find>
       <find>CalculateProgress</find>
       <find>remainingExperience</find>
+      <find>save</find>
     </findStrings>
     <replaceStrings>
       <replace>Character</replace>
@@ -228,13 +254,13 @@
         <option value="$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/SquareExperienceLevelFormula.cs" />
         <option value="$PROJECT_DIR$/Experience-Level-API/src/Entity/EntityDB.cs" />
         <option value="$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/BaseEntity.cs" />
-        <option value="$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/CharacterDB.cs" />
         <option value="$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/CharacterExperience.cs" />
         <option value="$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs" />
         <option value="$PROJECT_DIR$/UnitTests/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/Character.cs" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/UnitTests/Tests.cs" />
+        <option value="$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/CharacterDB.cs" />
       </list>
     </option>
   </component>
@@ -259,37 +285,6 @@
     </navigator>
     <panes>
       <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Experience-Level-API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="UnitTests" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer">
@@ -344,6 +339,7 @@
       <workItem from="1559380674556" duration="128000" />
       <workItem from="1559380878229" duration="6897000" />
       <workItem from="1559400482384" duration="565000" />
+      <workItem from="1559402671892" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="started work on readme">
       <created>1559382157812</created>
@@ -415,11 +411,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559388715707</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commented save/load">
+      <created>1559402796596</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559402796596</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10114000" />
+    <option name="totallyTimeSpent" value="10254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,7 +437,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -475,7 +478,8 @@
     <MESSAGE value="Work on README" />
     <MESSAGE value="Made code more readable and readme work" />
     <MESSAGE value="README work" />
-    <option name="LAST_COMMIT_MESSAGE" value="README work" />
+    <MESSAGE value="Commented save/load" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented save/load" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,31 +492,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/CharacterDB.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <marker date="1559400466953" expanded="true" signature="6:106" ph="..." />
-            <marker date="1559400466953" expanded="true" signature="171:3447" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="366:687" ph="///     Find a character in the character database ... " />
-            <marker date="1559400466953" expanded="true" signature="753:966" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="976:1144" ph="///     Get all the entities in the dictionary ... " />
-            <marker date="1559400466953" expanded="true" signature="1199:1276" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="1286:1599" ph="///     Delete a character from the character database ... " />
-            <marker date="1559400466953" expanded="true" signature="1662:1911" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="1921:2021" ph="///     Clear all the entries in the character database ... " />
-            <marker date="1559400466953" expanded="true" signature="2064:2126" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="2136:2426" ph="///     Add a character to the database ... " />
-            <marker date="1559400466953" expanded="true" signature="2487:2745" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="2755:2855" ph="///     Save characterDB to file (for testing purposes) ... " />
-            <marker date="1559400466953" expanded="true" signature="2895:3053" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="3063:3165" ph="///     Load characterDB from file (for testing purposes) ... " />
-            <marker date="1559400466953" expanded="true" signature="3207:3441" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceLevelFormula.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -554,13 +533,89 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="18">
+          <first_editor relative-caret-position="900">
             <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
       <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1559400466942" expanded="true" signature="6:62" ph="..." />
+            <marker date="1559400466942" expanded="true" signature="64:251" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1559400466942" expanded="true" signature="578:788" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1559400466942" expanded="true" signature="963:1290" ph="/* Version information for an assembly consists of the following four values: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/Character.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <marker date="1559400466953" expanded="true" signature="6:37" ph="..." />
+            <marker date="1559400466953" expanded="true" signature="64:2232" ph="{...}" />
+            <marker date="1559400466953" expanded="true" signature="112:2230" ph="{...}" />
+            <marker date="1559400466953" expanded="true" signature="127:279" ph="Methods" />
+            <marker date="1559400466953" expanded="true" signature="176:259" ph="{...}" />
+            <marker date="1559400466953" expanded="false" signature="289:484" ph="Variables" />
+            <marker date="1559400466953" expanded="false" signature="494:1351" ph="Properties" />
+            <marker date="1559400466953" expanded="true" signature="604:684" ph="{...}" />
+            <marker date="1559400466953" expanded="true" signature="711:916" ph="{...}" />
+            <marker date="1559400466953" expanded="true" signature="764:906" ph="{...}" />
+            <marker date="1559400466953" expanded="true" signature="948:1153" ph="{...}" />
+            <marker date="1559400466953" expanded="true" signature="1006:1143" ph="{...}" />
+            <marker date="1559400466953" expanded="true" signature="1215:1331" ph="{...}" />
+            <marker date="1559400466953" expanded="false" signature="1361:2224" ph="Constuctors" />
+            <marker date="1559400466953" expanded="true" signature="1408:1583" ph="{...}" />
+            <marker date="1559400466953" expanded="true" signature="1669:1834" ph="{...}" />
+            <marker date="1559400466953" expanded="true" signature="1932:2204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <marker date="1559400876595" expanded="true" signature="6:62" ph="..." />
+            <marker date="1559400876595" expanded="true" signature="64:251" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1559400876595" expanded="true" signature="556:766" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1559400876595" expanded="true" signature="941:1268" ph="/* Version information for an assembly consists of the following four values: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/Tests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="111" column="14" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
+          <folding>
+            <marker date="1559402713679" expanded="true" signature="6:69" ph="..." />
+            <marker date="1559402713679" expanded="true" signature="90:5870" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="133:5868" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="167:228" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="292:671" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="735:1247" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="1309:1621" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="1688:2074" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="2134:2766" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="2837:3264" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="3328:3704" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="3775:4030" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="4032:5071" ph="/* [Test] ... */" />
+            <marker date="1559402713679" expanded="true" signature="5142:5399" ph="{...}" />
+            <marker date="1559402713679" expanded="true" signature="5461:5862" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -632,79 +687,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTests/Properties/AssemblyInfo.cs">
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/CharacterDB.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="54">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
-            <marker date="1559400876595" expanded="true" signature="6:62" ph="..." />
-            <marker date="1559400876595" expanded="true" signature="64:251" ph="/* General Information about an assembly is controlled through the following ... */" />
-            <marker date="1559400876595" expanded="true" signature="556:766" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
-            <marker date="1559400876595" expanded="true" signature="941:1268" ph="/* Version information for an assembly consists of the following four values: ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experience-Level-API/Properties/AssemblyInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1559400466942" expanded="true" signature="6:62" ph="..." />
-            <marker date="1559400466942" expanded="true" signature="64:251" ph="/* General Information about an assembly is controlled through the following ... */" />
-            <marker date="1559400466942" expanded="true" signature="578:788" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
-            <marker date="1559400466942" expanded="true" signature="963:1290" ph="/* Version information for an assembly consists of the following four values: ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/Character.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <marker date="1559400466953" expanded="true" signature="6:37" ph="..." />
-            <marker date="1559400466953" expanded="true" signature="64:2232" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="112:2230" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="127:279" ph="Methods" />
-            <marker date="1559400466953" expanded="true" signature="176:259" ph="{...}" />
-            <marker date="1559400466953" expanded="false" signature="289:484" ph="Variables" />
-            <marker date="1559400466953" expanded="false" signature="494:1351" ph="Properties" />
-            <marker date="1559400466953" expanded="true" signature="604:684" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="711:916" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="764:906" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="948:1153" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="1006:1143" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="1215:1331" ph="{...}" />
-            <marker date="1559400466953" expanded="false" signature="1361:2224" ph="Constuctors" />
-            <marker date="1559400466953" expanded="true" signature="1408:1583" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="1669:1834" ph="{...}" />
-            <marker date="1559400466953" expanded="true" signature="1932:2204" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTests/Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <marker date="1559401013599" expanded="true" signature="6:69" ph="..." />
-            <marker date="1559401013599" expanded="true" signature="90:5808" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="133:5806" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="167:228" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="292:671" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="735:1247" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="1309:1621" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="1688:2074" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="2134:2766" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="2837:3264" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="3328:3704" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="3775:4030" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="4085:4586" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="4641:5009" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="5080:5337" ph="{...}" />
-            <marker date="1559401013599" expanded="true" signature="5399:5800" ph="{...}" />
+            <marker date="1559402782570" expanded="true" signature="6:66" ph="..." />
+            <marker date="1559402782570" expanded="true" signature="67:110" ph="/* using Newtonsoft.Json; ... */" />
+            <marker date="1559402782570" expanded="true" signature="137:3491" ph="{...}" />
+            <marker date="1559402782570" expanded="true" signature="175:3489" ph="{...}" />
+            <marker date="1559402782570" expanded="true" signature="370:691" ph="///     Find a character in the character database ... " />
+            <marker date="1559402782570" expanded="true" signature="757:970" ph="{...}" />
+            <marker date="1559402782570" expanded="true" signature="980:1148" ph="///     Get all the entities in the dictionary ... " />
+            <marker date="1559402782570" expanded="true" signature="1203:1280" ph="{...}" />
+            <marker date="1559402782570" expanded="true" signature="1290:1603" ph="///     Delete a character from the character database ... " />
+            <marker date="1559402782570" expanded="true" signature="1666:1915" ph="{...}" />
+            <marker date="1559402782570" expanded="true" signature="1925:2025" ph="///     Clear all the entries in the character database ... " />
+            <marker date="1559402782570" expanded="true" signature="2068:2130" ph="{...}" />
+            <marker date="1559402782570" expanded="true" signature="2140:2430" ph="///     Add a character to the database ... " />
+            <marker date="1559402782570" expanded="true" signature="2491:2749" ph="{...}" />
+            <marker date="1559402782570" expanded="true" signature="2751:3483" ph="/*        ///     Save characterDB to file (for testing purposes) ... */" />
           </folding>
         </state>
       </provider>
