@@ -18,6 +18,6 @@ A simple API to manage the experience points and the level of any number of char
 
 To start using the API you have to create a new object of type `Character` which require an object of type `ExperienceLevelFormula` and a name (Two examples are included `LinearExperienceLevelFormula` and `SquareExperienceLevelFormula`)
 ``` C#
-var epxerienceLeveFormula = new SquareExperienceLevelFormula()
-var characte = new ("name", experienceLevelFormula)
+var epxerienceLeveFormula = new SquareExperienceLevelFormula();
+var characte = new ("name", experienceLevelFormula);
 ```

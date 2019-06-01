@@ -68,12 +68,16 @@ namespace CharacterSystem
         {
             _name = "";
             _experienceLevelFormula = new LinearExperienceLevelFormula();
+            
+            CharacterDB.AddCharacter(this);
         }
 
         public Character(string name, ExperienceLevelFormula experienceLevelFormula)
         {
             _name = name;
             _experienceLevelFormula = experienceLevelFormula;
+            
+            CharacterDB.AddCharacter(this);
         }
 
         public Character(string name, long level, ExperienceLevelFormula experienceLevelFormula)
@@ -82,6 +86,8 @@ namespace CharacterSystem
             _experienceLevelFormula = experienceLevelFormula;
             _level = level;
             _experience = _experienceLevelFormula.CalculateExperience(_level);
+            
+            CharacterDB.AddCharacter(this);
         }
 
         #endregion
