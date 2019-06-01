@@ -54,3 +54,26 @@ ExperienceAPI.CalculateProgress(character);
 ExperienceAPI.CalculateProgress(experienceLevelFormula, currentExperience);
 ```
 
+``` C#
+ExperienceAPI.CalculateExperienceDelta(characterID, level);
+ExperienceAPI.CalculateExperienceDelta(character, level);
+ExperienceAPI.CalculateExperienceDelta(characterID, currentExperience, level);
+```
+
+``` C#
+ExperienceAPI.AddExperience(characterID, experienceToAdd);
+ExperienceAPI.AddExperience(character, experienceToAdd);
+
+ExperienceAPI.SubreactExperience(characterID, experienceToSubtract);
+ExperienceAPI.SubreactExperience(character, experienceToSubtract);
+
+ExperienceAPI.ChangeExperience(characterID, experienceChange);
+ExperienceAPI.ChangeExperience(character, experienceChange);
+```
+
+``` C#
+ExperieceAPI.ResetExperience(characterID);
+ExperieceAPI.ResetExperience(character);
+ExperieceAPI.ResetExperience(characterID, level);
+ExperieceAPI.ResetExperience(character, level);
+```

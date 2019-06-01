@@ -75,6 +75,7 @@ namespace ExperienceSystem
         public static long CalculateRemainingExperience(string characterID)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             return CalculateRemainingExperience(character);
         }
 
@@ -98,6 +99,7 @@ namespace ExperienceSystem
         public static long CalculateRemainingExperience(ExperienceLevelFormula experienceLevelFormula, long currentExperience)
         {
             var currentLevel = CalculateLevel(experienceLevelFormula, currentExperience);
+            
             return CalculateExperienceDelta(experienceLevelFormula, currentExperience,currentLevel + 1);// nextLevelExperience - currentExperience;
         }
 
