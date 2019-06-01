@@ -17,7 +17,7 @@ A simple API to manage the experience points and the level of an arbitrary numbe
 
 ## Installation
 
-
+To install API in unity simply import the [Experience_Level_API_Package](/Experience_Level_API_Package.unitypackage), or import the [Experience_Level_API_Implementation](/Experience_Level_API_Implementation.unitypackage) to look at a possible implementation of the Experience-Level_API.
 
 ## Usage
 
