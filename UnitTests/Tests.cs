@@ -33,10 +33,10 @@ namespace UnityTests
 
             var currentExperience = character.Experience;
 
-            ExperienceAPI.AddExperience(character.Id, 10);
+            ExperienceAPI.AddExperience(character.ID, 10);
             Assert.AreEqual(currentExperience + 10, character.Experience);
 
-            ExperienceAPI.SubtractExperience(character.Id, 20);
+            ExperienceAPI.SubtractExperience(character.ID, 20);
             Assert.AreEqual(currentExperience - 10, character.Experience);
         }
 
@@ -46,7 +46,7 @@ namespace UnityTests
             var experienceLevelFormula = new LinearExperienceLevelFormula();
             var character = new Character("Gabriel", 1, experienceLevelFormula);
 
-            Assert.AreEqual(ExperienceAPI.CalculateExperience(character.Id, character.Level),
+            Assert.AreEqual(ExperienceAPI.CalculateExperience(character.ID, character.Level),
                 character.Experience);
         }
 
@@ -58,7 +58,7 @@ namespace UnityTests
 
             var experienceDelta = experienceLevelFormula.CalculateExperience(10) - character.Experience;
 
-            Assert.AreEqual(ExperienceAPI.CalculateExperienceDelta(character.Id, 10), experienceDelta);
+            Assert.AreEqual(ExperienceAPI.CalculateExperienceDelta(character.ID, 10), experienceDelta);
         }
 
         [Test]
@@ -70,9 +70,9 @@ namespace UnityTests
             var nextLevelExperience = experienceLevelFormula.CalculateExperience(character.Level + 1);
             var lastLevelExperience = experienceLevelFormula.CalculateExperience(character.Level);
 
-            ExperienceAPI.AddExperience(character.Id, 33);
+            ExperienceAPI.AddExperience(character.ID, 33);
 
-            Assert.AreEqual(ExperienceAPI.CalculateProgress(character.Id),
+            Assert.AreEqual(ExperienceAPI.CalculateProgress(character.ID),
                 (character.Experience - lastLevelExperience) * 100 / (nextLevelExperience - lastLevelExperience));
         }
 
@@ -85,7 +85,7 @@ namespace UnityTests
             var remainingExperience =
                 experienceLevelFormula.CalculateExperience(character.Level + 1) - character.Experience;
 
-            Assert.AreEqual(ExperienceAPI.CalculateRemainingExperience(character.Id), remainingExperience);
+            Assert.AreEqual(ExperienceAPI.CalculateRemainingExperience(character.ID), remainingExperience);
         }
 
         [Test]
@@ -95,8 +95,8 @@ namespace UnityTests
             var character = new Character("Mark", 1, experienceLevelFormula);
             var currentLevel = character.Level;
 
-            ExperienceAPI.SetCurrentLevel(character.Id, 10);
-            Assert.AreNotEqual(ExperienceAPI.GetCurrentLevel(character.Id), currentLevel);
+            ExperienceAPI.SetCurrentLevel(character.ID, 10);
+            Assert.AreNotEqual(ExperienceAPI.GetCurrentLevel(character.ID), currentLevel);
         }
 
         [Test]

@@ -62,10 +62,10 @@ namespace CharacterSystem
         /// <exception cref="Exception">Thrown when a characterID already present in the database is passed</exception>
         public static void AddCharacter(Character character)
         {
-            if (!_characterDictionary.ContainsKey(character.Id))
-                _characterDictionary.Add(character.Id, character);
+            if (!_characterDictionary.ContainsKey(character.ID))
+                _characterDictionary.Add(character.ID, character);
             else
-                throw new Exception($"The entry with id {character.Id} already exists");
+                throw new Exception($"The entry with id {character.ID} already exists");
         }
 
         /// <summary>

@@ -10,7 +10,7 @@ namespace CharacterSystem
 
         public string ToString()
         {
-            return Id + "\n" + _name + "\n" + _level + "\n" + _experience;
+            return ID + "\n" + _name + "\n" + _level + "\n" + _experience;
         }
 
         #endregion
@@ -26,7 +26,7 @@ namespace CharacterSystem
 
         #region Properties
 
-        public string Id { get; } = Guid.NewGuid().ToString();
+        public string ID { get; } = Guid.NewGuid().ToString();
 
         public string Name
         {
