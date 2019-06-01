@@ -2,7 +2,7 @@
 
 A simple API to manage the experience points and the level of any number of characters.
 
-###API Features:
+### API Features:
 * API consumer (game designer) can inject any experience-level conversion formula(s) into the module
 * get current level
 * get experience value for an arbitrary level value
@@ -14,7 +14,7 @@ A simple API to manage the experience points and the level of any number of char
 * set level
 * reset experience to last level-up
 
-##Usage
+## Usage
 
 To start using the API you have to create a new object of type `Character` which require an object of type `ExperienceLevelFormula` and a name (Two examples are included `LinearExperienceLevelFormula` and `SquareExperienceLevelFormula`)
 ``` C#
