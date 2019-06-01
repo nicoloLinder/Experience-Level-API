@@ -39,6 +39,7 @@ namespace ExperienceSystem
         public static long CalculateExperience(string characterID, long level)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             return CalculateExperience(character, level);
         }
 
@@ -113,6 +114,7 @@ namespace ExperienceSystem
         public static long CalculateProgress(string characterID)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             return CalculateProgress(character);
         }
 
@@ -168,6 +170,7 @@ namespace ExperienceSystem
         public static long CalculateExperienceDelta(Character character, long level)
         {
             var selectedLevelExperience = CalculateExperience(character.ExperienceLevelFormula, level);
+            
             return selectedLevelExperience - character.Experience;
         }
 
