@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using Newtonsoft.Json;
+//using Newtonsoft.Json;
+//using System.IO;
 
 namespace CharacterSystem
 {
@@ -68,24 +68,24 @@ namespace CharacterSystem
                 throw new Exception($"The entry with id {character.ID} already exists");
         }
 
-        /// <summary>
-        ///     Save characterDB to file (for testing purposes)
-        /// </summary>
-        public static void SaveToFile()
-        {
-            var dataAsJson = JsonConvert.SerializeObject(_characterDictionary);
-            File.WriteAllText(_dataBaseName, dataAsJson);
-        }
-
-        /// <summary>
-        ///     Load characterDB from file (for testing purposes)
-        /// </summary>
-        public static void LoadFromFile()
-        {
-            var dataAsJson = File.ReadAllText(_dataBaseName);
-
-            _characterDictionary.Clear();
-            _characterDictionary = JsonConvert.DeserializeObject<Dictionary<string, Character>>(dataAsJson);
-        }
+//        /// <summary>
+//        ///     Save characterDB to file (for testing purposes)
+//        /// </summary>
+//        public static void SaveToFile()
+//        {
+//            var dataAsJson = JsonConvert.SerializeObject(_characterDictionary);
+//            File.WriteAllText(_dataBaseName, dataAsJson);
+//        }
+//
+//        /// <summary>
+//        ///     Load characterDB from file (for testing purposes)
+//        /// </summary>
+//        public static void LoadFromFile()
+//        {
+//            var dataAsJson = File.ReadAllText(_dataBaseName);
+//
+//            _characterDictionary.Clear();
+//            _characterDictionary = JsonConvert.DeserializeObject<Dictionary<string, Character>>(dataAsJson);
+//        }
     }
 }

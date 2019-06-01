@@ -108,37 +108,37 @@ namespace UnitTests
             Assert.AreEqual(experienceLevelFormula.CalculateLevel(100), 1);
         }
 
-        [Test]
-        public void TestLoadDataBase()
-        {
-            Setup();
-            var experienceLevelFormula = new LinearExperienceLevelFormula();
-
-            new Character("Mark", 1, experienceLevelFormula);
-            new Character("Edward", 1, experienceLevelFormula);
-            new Character("Gabriel", 1, experienceLevelFormula);
-
-            CharacterDB.SaveToFile();
-
-            CharacterDB.ClearDatabase();
-
-            CharacterDB.LoadFromFile();
-
-            Assert.AreEqual(CharacterDB.GetAllEntities().Count, 3);
-        }
-
-        [Test]
-        public void TestSaveDatabase()
-        {
-            Setup();
-            var experienceLevelFormula = new LinearExperienceLevelFormula();
-
-            new Character("Mark", 1, experienceLevelFormula);
-            new Character("Edward", 1, experienceLevelFormula);
-            new Character("Gabriel", 1, experienceLevelFormula);
-
-            Assert.DoesNotThrow(CharacterDB.SaveToFile);
-        }
+//        [Test]
+//        public void TestLoadDataBase()
+//        {
+//            Setup();
+//            var experienceLevelFormula = new LinearExperienceLevelFormula();
+//
+//            new Character("Mark", 1, experienceLevelFormula);
+//            new Character("Edward", 1, experienceLevelFormula);
+//            new Character("Gabriel", 1, experienceLevelFormula);
+//
+//            CharacterDB.SaveToFile();
+//
+//            CharacterDB.ClearDatabase();
+//
+//            CharacterDB.LoadFromFile();
+//
+//            Assert.AreEqual(CharacterDB.GetAllEntities().Count, 3);
+//        }
+//
+//        [Test]
+//        public void TestSaveDatabase()
+//        {
+//            Setup();
+//            var experienceLevelFormula = new LinearExperienceLevelFormula();
+//
+//            new Character("Mark", 1, experienceLevelFormula);
+//            new Character("Edward", 1, experienceLevelFormula);
+//            new Character("Gabriel", 1, experienceLevelFormula);
+//
+//            Assert.DoesNotThrow(CharacterDB.SaveToFile);
+//        }
 
         [Test]
         public void TestSquareExperienceLevelFormula()
