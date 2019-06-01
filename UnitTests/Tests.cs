@@ -18,9 +18,9 @@ namespace UnityTests
             Setup();
             var experienceLevelFormula = new LinearExperienceLevelFormula();
 
-            CharacterDB.AddCharacter(new Character("Mark", 1, experienceLevelFormula));
-            CharacterDB.AddCharacter(new Character("Edward", 1, experienceLevelFormula));
-            CharacterDB.AddCharacter(new Character("Gabriel", 1, experienceLevelFormula));
+            new Character("Mark", 1, experienceLevelFormula);
+            new Character("Edward", 1, experienceLevelFormula);
+            new Character("Gabriel", 1, experienceLevelFormula);
 
             Assert.AreEqual(CharacterDB.GetAllEntities().Count, 3);
         }
@@ -32,8 +32,6 @@ namespace UnityTests
             var character = new Character("Mark", 1, experienceLevelFormula);
 
             var currentExperience = character.Experience;
-
-            CharacterDB.AddCharacter(character);
 
             ExperienceAPI.AddExperience(character.Id, 10);
             Assert.AreEqual(currentExperience + 10, character.Experience);
@@ -48,8 +46,6 @@ namespace UnityTests
             var experienceLevelFormula = new LinearExperienceLevelFormula();
             var character = new Character("Gabriel", 1, experienceLevelFormula);
 
-            CharacterDB.AddCharacter(character);
-
             Assert.AreEqual(ExperienceAPI.CalculateExperience(character.Id, character.Level),
                 character.Experience);
         }
@@ -59,8 +55,6 @@ namespace UnityTests
         {
             var experienceLevelFormula = new LinearExperienceLevelFormula();
             var character = new Character("Mark", 1, experienceLevelFormula);
-
-            CharacterDB.AddCharacter(character);
 
             var experienceDelta = experienceLevelFormula.CalculateExperience(10) - character.Experience;
 
@@ -72,8 +66,6 @@ namespace UnityTests
         {
             var experienceLevelFormula = new SquareExperienceLevelFormula(0.1);
             var character = new Character("Mark", 1, experienceLevelFormula);
-
-            CharacterDB.AddCharacter(character);
 
             var nextLevelExperience = experienceLevelFormula.CalculateExperience(character.Level + 1);
             var lastLevelExperience = experienceLevelFormula.CalculateExperience(character.Level);
@@ -90,8 +82,6 @@ namespace UnityTests
             var experienceLevelFormula = new LinearExperienceLevelFormula();
             var character = new Character("Mark", 1, experienceLevelFormula);
 
-            CharacterDB.AddCharacter(character);
-
             var remainingExperience =
                 experienceLevelFormula.CalculateExperience(character.Level + 1) - character.Experience;
 
@@ -104,8 +94,6 @@ namespace UnityTests
             var experienceLevelFormula = new LinearExperienceLevelFormula();
             var character = new Character("Mark", 1, experienceLevelFormula);
             var currentLevel = character.Level;
-
-            CharacterDB.AddCharacter(character);
 
             ExperienceAPI.SetCurrentLevel(character.Id, 10);
             Assert.AreNotEqual(ExperienceAPI.GetCurrentLevel(character.Id), currentLevel);
@@ -126,9 +114,9 @@ namespace UnityTests
             Setup();
             var experienceLevelFormula = new LinearExperienceLevelFormula();
 
-            CharacterDB.AddCharacter(new Character("Mark", 1, experienceLevelFormula));
-            CharacterDB.AddCharacter(new Character("Edward", 1, experienceLevelFormula));
-            CharacterDB.AddCharacter(new Character("Gabriel", 1, experienceLevelFormula));
+            new Character("Mark", 1, experienceLevelFormula);
+            new Character("Edward", 1, experienceLevelFormula);
+            new Character("Gabriel", 1, experienceLevelFormula);
 
             CharacterDB.SaveToFile();
 
@@ -145,9 +133,9 @@ namespace UnityTests
             Setup();
             var experienceLevelFormula = new LinearExperienceLevelFormula();
 
-            CharacterDB.AddCharacter(new Character("Mark", 1, experienceLevelFormula));
-            CharacterDB.AddCharacter(new Character("Edward", 1, experienceLevelFormula));
-            CharacterDB.AddCharacter(new Character("Gabriel", 1, experienceLevelFormula));
+            new Character("Mark", 1, experienceLevelFormula);
+            new Character("Edward", 1, experienceLevelFormula);
+            new Character("Gabriel", 1, experienceLevelFormula);
 
             Assert.DoesNotThrow(CharacterDB.SaveToFile);
         }
