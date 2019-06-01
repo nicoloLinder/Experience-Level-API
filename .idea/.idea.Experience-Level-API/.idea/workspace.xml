@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebbfe202-8913-407c-a8a0-c0adc08f1e47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Experience-Level-API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Experience-Level-API/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Experience-Level-API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Experience-Level-API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/Tests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/nunit.framework.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/nunit.framework.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="ebbfe202-8913-407c-a8a0-c0adc08f1e47" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UnitTests/Tests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
                 <marker date="1559401013599" expanded="true" signature="6:69" ph="..." />
                 <marker date="1559401013599" expanded="true" signature="90:5808" ph="{...}" />
@@ -352,7 +343,7 @@
       <workItem from="1559242136788" duration="1341000" />
       <workItem from="1559380674556" duration="128000" />
       <workItem from="1559380878229" duration="6897000" />
-      <workItem from="1559400482384" duration="529000" />
+      <workItem from="1559400482384" duration="565000" />
     </task>
     <task id="LOCAL-00001" summary="started work on readme">
       <created>1559382157812</created>
@@ -428,7 +419,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10078000" />
+    <option name="totallyTimeSpent" value="10114000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTests/Tests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
             <marker date="1559401013599" expanded="true" signature="6:69" ph="..." />
             <marker date="1559401013599" expanded="true" signature="90:5808" ph="{...}" />
