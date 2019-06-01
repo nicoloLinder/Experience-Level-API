@@ -2,7 +2,7 @@
 using ExperienceSystem;
 using NUnit.Framework;
 
-namespace UnityTests
+namespace UnitTests
 {
     [TestFixture]
     public class Tests
