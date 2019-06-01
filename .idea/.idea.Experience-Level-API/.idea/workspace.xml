@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ebbfe202-8913-407c-a8a0-c0adc08f1e47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Experience-Level-API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Experience-Level-API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/Tests.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,86 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="672">
-                <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-642">
+                <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148">
-              <caret line="320" column="12" selection-start-line="320" selection-start-column="12" selection-end-line="320" selection-end-column="12" />
-              <folding>
-                <marker date="1559387295105" expanded="true" signature="50:15160" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="90:15158" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="105:934" ph="Get / Set Level" />
-                <marker date="1559387295105" expanded="true" signature="138:372" ph="///     Get the current level of an character ... " />
-                <marker date="1559387295105" expanded="true" signature="435:520" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="530:753" ph="///     Set the current level of an character ... " />
-                <marker date="1559387295105" expanded="true" signature="828:914" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="944:8884" ph="Experience Calculations" />
-                <marker date="1559387295105" expanded="true" signature="985:1340" ph="///     Calculate the experience amount at a given level ... " />
-                <marker date="1559387295105" expanded="true" signature="1419:1565" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="1575:1910" ph="///     Calculate the experience amount at a given level ... " />
-                <marker date="1559387295105" expanded="true" signature="1990:2091" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="2101:2475" ph="///     Calculate the experience amount at a given level ... " />
-                <marker date="1559387295105" expanded="true" signature="2581:2671" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="2727:3041" ph="///     Calculate the amount of experience needed for a character to reach the next level ... " />
-                <marker date="1559387295105" expanded="true" signature="3117:3265" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="3275:3562" ph="///     Calculate the amount of experience needed for a character to reach the next level ... " />
-                <marker date="1559387295105" expanded="true" signature="3639:3764" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="3774:4260" ph="///     Calculate the amount of experience needed to reach the next level given a experience-level conversion for ... " />
-                <marker date="1559387295105" expanded="true" signature="4387:4645" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="4700:4975" ph="///     Calculate a character's experience progress to reach the next level ... " />
-                <marker date="1559387295105" expanded="true" signature="5040:5177" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="5187:5455" ph="///     Calculate a character's experience progress to reach the next level ... " />
-                <marker date="1559387295105" expanded="true" signature="5521:5847" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="5865:6254" ph="///     Calculate a character's experience progress to reach the next level ... " />
-                <marker date="1559387295105" expanded="true" signature="6370:6796" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="6848:7198" ph="///     Calculate the experience delta between a character's current experience amount and an arbitrary level ... " />
-                <marker date="1559387295105" expanded="true" signature="7282:7446" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="7456:7799" ph="///     Calculate the experience delta between a character's current experience amount and an arbitrary level ... " />
-                <marker date="1559387295105" expanded="true" signature="7884:8075" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="8085:8526" ph="///     Calculate the experience delta between an experience amount and a level value ... " />
-                <marker date="1559387295105" expanded="true" signature="8673:8864" ph="{...}" />
-                <marker date="1559387295105" expanded="false" signature="8894:10707" ph="Level Calculations" />
-                <marker date="1559387295105" expanded="true" signature="8961:9325" ph="///     Calculate the level a character would have at a given experience amount ... " />
-                <marker date="1559387295105" expanded="true" signature="9404:9563" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="9573:9917" ph="///     Calculate the level a character would have at a given experience amount ... " />
-                <marker date="1559387295105" expanded="true" signature="9997:10098" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="10108:10491" ph="///     Calculate the level a character would have at a given experience amount ... " />
-                <marker date="1559387295105" expanded="true" signature="10597:10687" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="10717:13480" ph="Experience Change" />
-                <marker date="1559387295105" expanded="true" signature="10752:10991" ph="///     Add an experience amount to a character ... " />
-                <marker date="1559387295105" expanded="true" signature="11074:11230" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="11240:11472" ph="///     Add an experience amount to a character ... " />
-                <marker date="1559387295105" expanded="true" signature="11556:11634" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="11644:11890" ph="///     Subtract an experience amount from a character ... " />
-                <marker date="1559387295105" expanded="true" signature="11981:12145" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="12155:12401" ph="///     Subtract an experience amount from a character ... " />
-                <marker date="1559387295105" expanded="true" signature="12493:12575" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="12585:12816" ph="///     Change a character's experience amount ... " />
-                <marker date="1559387295105" expanded="true" signature="12903:13063" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="13073:13298" ph="///     Change a character's experience amount ... " />
-                <marker date="1559387295105" expanded="true" signature="13386:13460" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="13490:15152" ph="Expreience Reset" />
-                <marker date="1559387295105" expanded="true" signature="13524:13693" ph="///     Reset a character's experience to the last level-up ... " />
-                <marker date="1559387295105" expanded="true" signature="13756:13914" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="13924:14162" ph="///     Reset a character's experience to an arbitrary level ... " />
-                <marker date="1559387295105" expanded="true" signature="14237:14385" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="14395:14557" ph="///     Reset a character's experience to the last level-up ... " />
-                <marker date="1559387295105" expanded="true" signature="14621:14698" ph="{...}" />
-                <marker date="1559387295105" expanded="true" signature="14708:14939" ph="///     Reset a character's experience to an arbitrary level ... " />
-                <marker date="1559387295105" expanded="true" signature="15015:15132" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/Character.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-708">
+            <state relative-caret-position="-693">
               <caret line="28" column="24" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <marker date="1559382671337" expanded="true" signature="6:37" ph="..." />
@@ -122,6 +48,78 @@
                 <marker date="1559382671337" expanded="true" signature="1420:1595" ph="{...}" />
                 <marker date="1559382671337" expanded="true" signature="1681:1846" ph="{...}" />
                 <marker date="1559382671337" expanded="true" signature="1944:2216" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-414">
+              <caret line="282" column="69" selection-start-line="282" selection-start-column="69" selection-end-line="282" selection-end-column="69" />
+              <folding>
+                <marker date="1559387479968" expanded="true" signature="50:15186" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="90:15184" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="105:934" ph="Get / Set Level" />
+                <marker date="1559387479968" expanded="true" signature="138:372" ph="///     Get the current level of an character ... " />
+                <marker date="1559387479968" expanded="true" signature="435:520" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="530:753" ph="///     Set the current level of an character ... " />
+                <marker date="1559387479968" expanded="true" signature="828:914" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="944:8910" ph="Experience Calculations" />
+                <marker date="1559387479968" expanded="true" signature="985:1340" ph="///     Calculate the experience amount at a given level ... " />
+                <marker date="1559387479968" expanded="true" signature="1419:1565" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="1575:1910" ph="///     Calculate the experience amount at a given level ... " />
+                <marker date="1559387479968" expanded="true" signature="1990:2091" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="2101:2475" ph="///     Calculate the experience amount at a given level ... " />
+                <marker date="1559387479968" expanded="true" signature="2581:2671" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="2727:3041" ph="///     Calculate the amount of experience needed for a character to reach the next level ... " />
+                <marker date="1559387479968" expanded="true" signature="3117:3278" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="3288:3575" ph="///     Calculate the amount of experience needed for a character to reach the next level ... " />
+                <marker date="1559387479968" expanded="true" signature="3652:3777" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="3787:4273" ph="///     Calculate the amount of experience needed to reach the next level given a experience-level conversion for ... " />
+                <marker date="1559387479968" expanded="true" signature="4400:4671" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="4726:5001" ph="///     Calculate a character's experience progress to reach the next level ... " />
+                <marker date="1559387479968" expanded="true" signature="5066:5203" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="5213:5481" ph="///     Calculate a character's experience progress to reach the next level ... " />
+                <marker date="1559387479968" expanded="true" signature="5547:5873" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="5891:6280" ph="///     Calculate a character's experience progress to reach the next level ... " />
+                <marker date="1559387479968" expanded="true" signature="6396:6822" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="6874:7224" ph="///     Calculate the experience delta between a character's current experience amount and an arbitrary level ... " />
+                <marker date="1559387479968" expanded="true" signature="7308:7472" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="7482:7825" ph="///     Calculate the experience delta between a character's current experience amount and an arbitrary level ... " />
+                <marker date="1559387479968" expanded="true" signature="7910:8101" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="8111:8552" ph="///     Calculate the experience delta between an experience amount and a level value ... " />
+                <marker date="1559387479968" expanded="true" signature="8699:8890" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="8920:10733" ph="Level Calculations" />
+                <marker date="1559387479968" expanded="true" signature="8987:9351" ph="///     Calculate the level a character would have at a given experience amount ... " />
+                <marker date="1559387479968" expanded="true" signature="9430:9589" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="9599:9943" ph="///     Calculate the level a character would have at a given experience amount ... " />
+                <marker date="1559387479968" expanded="true" signature="10023:10124" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="10134:10517" ph="///     Calculate the level a character would have at a given experience amount ... " />
+                <marker date="1559387479968" expanded="true" signature="10623:10713" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="10743:13506" ph="Experience Change" />
+                <marker date="1559387479968" expanded="true" signature="10778:11017" ph="///     Add an experience amount to a character ... " />
+                <marker date="1559387479968" expanded="true" signature="11100:11256" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="11266:11498" ph="///     Add an experience amount to a character ... " />
+                <marker date="1559387479968" expanded="true" signature="11582:11660" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="11670:11916" ph="///     Subtract an experience amount from a character ... " />
+                <marker date="1559387479968" expanded="true" signature="12007:12171" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="12181:12427" ph="///     Subtract an experience amount from a character ... " />
+                <marker date="1559387479968" expanded="true" signature="12519:12601" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="12611:12842" ph="///     Change a character's experience amount ... " />
+                <marker date="1559387479968" expanded="true" signature="12929:13089" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="13099:13324" ph="///     Change a character's experience amount ... " />
+                <marker date="1559387479968" expanded="true" signature="13412:13486" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="13516:15178" ph="Expreience Reset" />
+                <marker date="1559387479968" expanded="true" signature="13550:13719" ph="///     Reset a character's experience to the last level-up ... " />
+                <marker date="1559387479968" expanded="true" signature="13782:13940" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="13950:14188" ph="///     Reset a character's experience to an arbitrary level ... " />
+                <marker date="1559387479968" expanded="true" signature="14263:14411" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="14421:14583" ph="///     Reset a character's experience to the last level-up ... " />
+                <marker date="1559387479968" expanded="true" signature="14647:14724" ph="{...}" />
+                <marker date="1559387479968" expanded="true" signature="14734:14965" ph="///     Reset a character's experience to an arbitrary level ... " />
+                <marker date="1559387479968" expanded="true" signature="15041:15158" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -167,6 +165,7 @@
       <find>CharacterDB.AddCharacter(</find>
       <find>region</find>
       <find>CalculateProgress</find>
+      <find>remainingExperience</find>
     </findStrings>
     <replaceStrings>
       <replace>Character</replace>
@@ -204,9 +203,9 @@
         <option value="$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/CharacterDB.cs" />
         <option value="$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/CharacterExperience.cs" />
         <option value="$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/Character.cs" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/UnitTests/Tests.cs" />
         <option value="$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -302,7 +301,7 @@
       <updated>1559242131189</updated>
       <workItem from="1559242136788" duration="1341000" />
       <workItem from="1559380674556" duration="128000" />
-      <workItem from="1559380878229" duration="3880000" />
+      <workItem from="1559380878229" duration="5062000" />
     </task>
     <task id="LOCAL-00001" summary="started work on readme">
       <created>1559382157812</created>
@@ -346,11 +345,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559383036614</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Made code more readable and readme work">
+      <created>1559387317490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559387317490</updated>
+    </task>
+    <task id="LOCAL-00008" summary="README work">
+      <created>1559388123388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559388123388</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6532000" />
+    <option name="totallyTimeSpent" value="7714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +417,9 @@
     <MESSAGE value="Characters now add themselves to the dictionary" />
     <MESSAGE value="fixed tests" />
     <MESSAGE value="Work on README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work on README" />
+    <MESSAGE value="Made code more readable and readme work" />
+    <MESSAGE value="README work" />
+    <option name="LAST_COMMIT_MESSAGE" value="README work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,32 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/Character.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-708">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <marker date="1559382671337" expanded="true" signature="6:37" ph="..." />
-            <marker date="1559382671337" expanded="true" signature="64:2244" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="112:2242" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="127:291" ph="Methods" />
-            <marker date="1559382671337" expanded="true" signature="176:271" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="301:496" ph="Variables" />
-            <marker date="1559382671337" expanded="true" signature="506:1363" ph="Properties" />
-            <marker date="1559382671337" expanded="true" signature="616:696" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="723:928" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="776:918" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="960:1165" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="1018:1155" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="1227:1343" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="1373:2236" ph="Constuctors" />
-            <marker date="1559382671337" expanded="true" signature="1420:1595" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="1681:1846" ph="{...}" />
-            <marker date="1559382671337" expanded="true" signature="1944:2216" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitTests/Tests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3">
@@ -535,86 +524,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/CharacterSystem/Character.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <marker date="1559382671337" expanded="true" signature="6:37" ph="..." />
+            <marker date="1559382671337" expanded="true" signature="64:2244" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="112:2242" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="127:291" ph="Methods" />
+            <marker date="1559382671337" expanded="true" signature="176:271" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="301:496" ph="Variables" />
+            <marker date="1559382671337" expanded="true" signature="506:1363" ph="Properties" />
+            <marker date="1559382671337" expanded="true" signature="616:696" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="723:928" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="776:918" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="960:1165" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="1018:1155" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="1227:1343" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="1373:2236" ph="Constuctors" />
+            <marker date="1559382671337" expanded="true" signature="1420:1595" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="1681:1846" ph="{...}" />
+            <marker date="1559382671337" expanded="true" signature="1944:2216" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="282" column="69" selection-start-line="282" selection-start-column="69" selection-end-line="282" selection-end-column="69" />
+          <folding>
+            <marker date="1559387479968" expanded="true" signature="50:15186" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="90:15184" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="105:934" ph="Get / Set Level" />
+            <marker date="1559387479968" expanded="true" signature="138:372" ph="///     Get the current level of an character ... " />
+            <marker date="1559387479968" expanded="true" signature="435:520" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="530:753" ph="///     Set the current level of an character ... " />
+            <marker date="1559387479968" expanded="true" signature="828:914" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="944:8910" ph="Experience Calculations" />
+            <marker date="1559387479968" expanded="true" signature="985:1340" ph="///     Calculate the experience amount at a given level ... " />
+            <marker date="1559387479968" expanded="true" signature="1419:1565" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="1575:1910" ph="///     Calculate the experience amount at a given level ... " />
+            <marker date="1559387479968" expanded="true" signature="1990:2091" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="2101:2475" ph="///     Calculate the experience amount at a given level ... " />
+            <marker date="1559387479968" expanded="true" signature="2581:2671" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="2727:3041" ph="///     Calculate the amount of experience needed for a character to reach the next level ... " />
+            <marker date="1559387479968" expanded="true" signature="3117:3278" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="3288:3575" ph="///     Calculate the amount of experience needed for a character to reach the next level ... " />
+            <marker date="1559387479968" expanded="true" signature="3652:3777" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="3787:4273" ph="///     Calculate the amount of experience needed to reach the next level given a experience-level conversion for ... " />
+            <marker date="1559387479968" expanded="true" signature="4400:4671" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="4726:5001" ph="///     Calculate a character's experience progress to reach the next level ... " />
+            <marker date="1559387479968" expanded="true" signature="5066:5203" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="5213:5481" ph="///     Calculate a character's experience progress to reach the next level ... " />
+            <marker date="1559387479968" expanded="true" signature="5547:5873" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="5891:6280" ph="///     Calculate a character's experience progress to reach the next level ... " />
+            <marker date="1559387479968" expanded="true" signature="6396:6822" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="6874:7224" ph="///     Calculate the experience delta between a character's current experience amount and an arbitrary level ... " />
+            <marker date="1559387479968" expanded="true" signature="7308:7472" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="7482:7825" ph="///     Calculate the experience delta between a character's current experience amount and an arbitrary level ... " />
+            <marker date="1559387479968" expanded="true" signature="7910:8101" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="8111:8552" ph="///     Calculate the experience delta between an experience amount and a level value ... " />
+            <marker date="1559387479968" expanded="true" signature="8699:8890" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="8920:10733" ph="Level Calculations" />
+            <marker date="1559387479968" expanded="true" signature="8987:9351" ph="///     Calculate the level a character would have at a given experience amount ... " />
+            <marker date="1559387479968" expanded="true" signature="9430:9589" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="9599:9943" ph="///     Calculate the level a character would have at a given experience amount ... " />
+            <marker date="1559387479968" expanded="true" signature="10023:10124" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="10134:10517" ph="///     Calculate the level a character would have at a given experience amount ... " />
+            <marker date="1559387479968" expanded="true" signature="10623:10713" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="10743:13506" ph="Experience Change" />
+            <marker date="1559387479968" expanded="true" signature="10778:11017" ph="///     Add an experience amount to a character ... " />
+            <marker date="1559387479968" expanded="true" signature="11100:11256" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="11266:11498" ph="///     Add an experience amount to a character ... " />
+            <marker date="1559387479968" expanded="true" signature="11582:11660" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="11670:11916" ph="///     Subtract an experience amount from a character ... " />
+            <marker date="1559387479968" expanded="true" signature="12007:12171" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="12181:12427" ph="///     Subtract an experience amount from a character ... " />
+            <marker date="1559387479968" expanded="true" signature="12519:12601" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="12611:12842" ph="///     Change a character's experience amount ... " />
+            <marker date="1559387479968" expanded="true" signature="12929:13089" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="13099:13324" ph="///     Change a character's experience amount ... " />
+            <marker date="1559387479968" expanded="true" signature="13412:13486" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="13516:15178" ph="Expreience Reset" />
+            <marker date="1559387479968" expanded="true" signature="13550:13719" ph="///     Reset a character's experience to the last level-up ... " />
+            <marker date="1559387479968" expanded="true" signature="13782:13940" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="13950:14188" ph="///     Reset a character's experience to an arbitrary level ... " />
+            <marker date="1559387479968" expanded="true" signature="14263:14411" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="14421:14583" ph="///     Reset a character's experience to the last level-up ... " />
+            <marker date="1559387479968" expanded="true" signature="14647:14724" ph="{...}" />
+            <marker date="1559387479968" expanded="true" signature="14734:14965" ph="///     Reset a character's experience to an arbitrary level ... " />
+            <marker date="1559387479968" expanded="true" signature="15041:15158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="672">
-            <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-642">
+            <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
       <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experience-Level-API/src/ExperienceSystem/ExperienceAPI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="320" column="12" selection-start-line="320" selection-start-column="12" selection-end-line="320" selection-end-column="12" />
-          <folding>
-            <marker date="1559387295105" expanded="true" signature="50:15160" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="90:15158" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="105:934" ph="Get / Set Level" />
-            <marker date="1559387295105" expanded="true" signature="138:372" ph="///     Get the current level of an character ... " />
-            <marker date="1559387295105" expanded="true" signature="435:520" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="530:753" ph="///     Set the current level of an character ... " />
-            <marker date="1559387295105" expanded="true" signature="828:914" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="944:8884" ph="Experience Calculations" />
-            <marker date="1559387295105" expanded="true" signature="985:1340" ph="///     Calculate the experience amount at a given level ... " />
-            <marker date="1559387295105" expanded="true" signature="1419:1565" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="1575:1910" ph="///     Calculate the experience amount at a given level ... " />
-            <marker date="1559387295105" expanded="true" signature="1990:2091" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="2101:2475" ph="///     Calculate the experience amount at a given level ... " />
-            <marker date="1559387295105" expanded="true" signature="2581:2671" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="2727:3041" ph="///     Calculate the amount of experience needed for a character to reach the next level ... " />
-            <marker date="1559387295105" expanded="true" signature="3117:3265" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="3275:3562" ph="///     Calculate the amount of experience needed for a character to reach the next level ... " />
-            <marker date="1559387295105" expanded="true" signature="3639:3764" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="3774:4260" ph="///     Calculate the amount of experience needed to reach the next level given a experience-level conversion for ... " />
-            <marker date="1559387295105" expanded="true" signature="4387:4645" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="4700:4975" ph="///     Calculate a character's experience progress to reach the next level ... " />
-            <marker date="1559387295105" expanded="true" signature="5040:5177" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="5187:5455" ph="///     Calculate a character's experience progress to reach the next level ... " />
-            <marker date="1559387295105" expanded="true" signature="5521:5847" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="5865:6254" ph="///     Calculate a character's experience progress to reach the next level ... " />
-            <marker date="1559387295105" expanded="true" signature="6370:6796" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="6848:7198" ph="///     Calculate the experience delta between a character's current experience amount and an arbitrary level ... " />
-            <marker date="1559387295105" expanded="true" signature="7282:7446" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="7456:7799" ph="///     Calculate the experience delta between a character's current experience amount and an arbitrary level ... " />
-            <marker date="1559387295105" expanded="true" signature="7884:8075" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="8085:8526" ph="///     Calculate the experience delta between an experience amount and a level value ... " />
-            <marker date="1559387295105" expanded="true" signature="8673:8864" ph="{...}" />
-            <marker date="1559387295105" expanded="false" signature="8894:10707" ph="Level Calculations" />
-            <marker date="1559387295105" expanded="true" signature="8961:9325" ph="///     Calculate the level a character would have at a given experience amount ... " />
-            <marker date="1559387295105" expanded="true" signature="9404:9563" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="9573:9917" ph="///     Calculate the level a character would have at a given experience amount ... " />
-            <marker date="1559387295105" expanded="true" signature="9997:10098" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="10108:10491" ph="///     Calculate the level a character would have at a given experience amount ... " />
-            <marker date="1559387295105" expanded="true" signature="10597:10687" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="10717:13480" ph="Experience Change" />
-            <marker date="1559387295105" expanded="true" signature="10752:10991" ph="///     Add an experience amount to a character ... " />
-            <marker date="1559387295105" expanded="true" signature="11074:11230" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="11240:11472" ph="///     Add an experience amount to a character ... " />
-            <marker date="1559387295105" expanded="true" signature="11556:11634" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="11644:11890" ph="///     Subtract an experience amount from a character ... " />
-            <marker date="1559387295105" expanded="true" signature="11981:12145" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="12155:12401" ph="///     Subtract an experience amount from a character ... " />
-            <marker date="1559387295105" expanded="true" signature="12493:12575" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="12585:12816" ph="///     Change a character's experience amount ... " />
-            <marker date="1559387295105" expanded="true" signature="12903:13063" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="13073:13298" ph="///     Change a character's experience amount ... " />
-            <marker date="1559387295105" expanded="true" signature="13386:13460" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="13490:15152" ph="Expreience Reset" />
-            <marker date="1559387295105" expanded="true" signature="13524:13693" ph="///     Reset a character's experience to the last level-up ... " />
-            <marker date="1559387295105" expanded="true" signature="13756:13914" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="13924:14162" ph="///     Reset a character's experience to an arbitrary level ... " />
-            <marker date="1559387295105" expanded="true" signature="14237:14385" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="14395:14557" ph="///     Reset a character's experience to the last level-up ... " />
-            <marker date="1559387295105" expanded="true" signature="14621:14698" ph="{...}" />
-            <marker date="1559387295105" expanded="true" signature="14708:14939" ph="///     Reset a character's experience to an arbitrary level ... " />
-            <marker date="1559387295105" expanded="true" signature="15015:15132" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
   </component>
   <component name="masterDetails">
