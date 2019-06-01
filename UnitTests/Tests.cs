@@ -148,5 +148,16 @@ namespace UnityTests
             Assert.AreEqual(experienceLevelFormula.CalculateExperience(2), 400);
             Assert.AreEqual(experienceLevelFormula.CalculateLevel(400), 2);
         }
+
+        [Test]
+        public void TestRemainingExperience()
+        {
+            var experienceLevelFormula = new LinearExperienceLevelFormula();
+            
+            var character = new Character("Mark", 0, experienceLevelFormula);
+            
+            Assert.AreEqual(ExperienceAPI.CalculateRemainingExperience(character.ExperienceLevelFormula, character.Experience), ExperienceAPI.CalculateRemainingExperience(character.ID));
+            
+        }
     }
 }

@@ -41,3 +41,16 @@ ExperienceAPI.CalculateLevel(characterID, experience);
 ExperienceAPI.CalculateLevel(character, experience);
 ExperienceAPI.CalculateLevel(epxerienceLeveFormula, experience);
 ```
+
+``` C# 
+ExperienceAPI.CalculateRemainingExperience(characterID);
+ExperienceAPI.CalculateRemainingExperience(character);
+ExperienceAPI.CalculateRemainingExperience(experienceLevelFormula, currentExperience);
+```
+
+``` C# 
+ExperienceAPI.CalculateProgress(characterID);
+ExperienceAPI.CalculateProgress(character);
+ExperienceAPI.CalculateProgress(experienceLevelFormula, currentExperience);
+```
+

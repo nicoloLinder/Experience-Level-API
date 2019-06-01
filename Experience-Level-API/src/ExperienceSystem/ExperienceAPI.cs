@@ -85,7 +85,7 @@ namespace ExperienceSystem
         /// <returns>Returns the amount of experience needed to reach the next level</returns>
         public static long CalculateRemainingExperience(Character character)
         {
-            return CalculateExperience(character.ExperienceLevelFormula, character.Level + 1) - character.Experience;
+            return CalculateRemainingExperience(character.ExperienceLevelFormula, character.Experience);
         }
 
         /// <summary>
@@ -95,11 +95,10 @@ namespace ExperienceSystem
         /// <param name="experienceLevelFormula">The experience-level conversion formula</param>
         /// <param name="currentExperience">The current experience amount</param>
         /// <returns>Returns the amount of experience needed to reach the next level</returns>
-        public static long CalculateremainingExperience(ExperienceLevelFormula experienceLevelFormula,
-            long currentExperience)
+        public static long CalculateRemainingExperience(ExperienceLevelFormula experienceLevelFormula, long currentExperience)
         {
             var currentLevel = CalculateLevel(experienceLevelFormula, currentExperience);
-            return CalculateExperience(experienceLevelFormula, currentLevel + 1) - currentExperience;
+            return CalculateExperienceDelta(experienceLevelFormula, currentExperience,currentLevel + 1);// nextLevelExperience - currentExperience;
         }
 
         //    CALCULATE EXPERIENCE PROGRESS
@@ -122,10 +121,25 @@ namespace ExperienceSystem
         /// <returns>Returns the progress expressed as percentage from 0 to 100</returns>
         public static long CalculateProgress(Character character)
         {
-            return (character.Experience - CalculateExperience(character.ExperienceLevelFormula, character.Level)) *
-                   100 /
-                   (CalculateExperience(character, character.Level + 1) -
-                    CalculateExperience(character.ExperienceLevelFormula, character.Level));
+            var lastLevelExperience = CalculateExperience(character, character.Level);
+            var nextLevelExperience = CalculateExperience(character, character.Level+1);
+            
+            return (character.Experience - lastLevelExperience) * 100 / (nextLevelExperience - lastLevelExperience);
+        }
+        
+        /// <summary>
+        ///     Calculate a character's experience progress to reach the next level
+        /// </summary>
+        /// <param name="experienceLevelFormula">The experience level conversion formula</param>
+        /// <param name="currentExperience">The current experience amount</param>
+        /// <returns>Returns the progress expressed as percentage from 0 to 100</returns>
+        public static long CalculateProgress(ExperienceLevelFormula experienceLevelFormula, long currentExperience)
+        {
+            var lastLevel = CalculateLevel(experienceLevelFormula, currentExperience);
+            var lastLevelExperience = CalculateExperience(experienceLevelFormula, lastLevel);
+            var nextLevelExperience = CalculateExperience(experienceLevelFormula, lastLevel + 1);
+            
+            return (currentExperience - lastLevelExperience) * 100 / (nextLevelExperience - lastLevelExperience);
         }
 
         //    CALCULATE EXPERIENCE DELTA
@@ -139,6 +153,7 @@ namespace ExperienceSystem
         public static long CalculateExperienceDelta(string characterID, long level)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             return CalculateExperienceDelta(character, level);
         }
 
@@ -150,7 +165,8 @@ namespace ExperienceSystem
         /// <returns>The experience amount delta</returns>
         public static long CalculateExperienceDelta(Character character, long level)
         {
-            return CalculateExperience(character.ExperienceLevelFormula, level) - character.Experience;
+            var selectedLevelExperience = CalculateExperience(character.ExperienceLevelFormula, level);
+            return selectedLevelExperience - character.Experience;
         }
 
         /// <summary>
@@ -163,7 +179,9 @@ namespace ExperienceSystem
         public static long CalculateExperienceDelta(ExperienceLevelFormula experienceLevelFormula,
             long currentExperience, long level)
         {
-            return CalculateExperience(experienceLevelFormula, level) - currentExperience;
+            var selectedLevelExperience = CalculateExperience(experienceLevelFormula, level);
+            
+            return selectedLevelExperience - currentExperience;
         }
 
         #endregion
@@ -181,6 +199,7 @@ namespace ExperienceSystem
         public static long CalculateLevel(string characterID, long experience)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             return CalculateLevel(character, experience);
         }
 
@@ -218,6 +237,7 @@ namespace ExperienceSystem
         public static void AddExperience(string characterID, long experienceToAdd)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             AddExperience(character, experienceToAdd);
         }
 
@@ -239,6 +259,7 @@ namespace ExperienceSystem
         public static void SubtractExperience(string characterID, long experienceToRemove)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             SubtractExperience(character, experienceToRemove);
         }
 
@@ -260,6 +281,7 @@ namespace ExperienceSystem
         public static void ChangeExperience(string characterID, long experienceChange)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             ChangeExperience(character, experienceChange);
         }
 
@@ -284,6 +306,7 @@ namespace ExperienceSystem
         public static void ResetExperience(string characterID)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             ResetExperience(character, character.Level);
         }
 
@@ -295,6 +318,7 @@ namespace ExperienceSystem
         public static void ResetExperience(string characterID, long level)
         {
             var character = CharacterDB.FindCharacter(characterID);
+            
             ResetExperience(character, level);
         }
 
