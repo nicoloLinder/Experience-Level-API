@@ -38,12 +38,18 @@ string characterID = character.ID;
 Once a character is created the `ExperienceAPI` can be used to manage the experience and the level of the newly created character, all that is really needed is the character `ID` to reference the character that was just created
 
 ###### Get and set character level
+
+Get and set a character's level value by passing the characterID
+
 ``` C# 
 ExperienceAPI.GetLevel(characterID);
 ExperienceAPI.SetLevel(characterID, level);
 ```
 
-###### Calculate the experience for an arbitrary level value
+##### Calculate the experience for an arbitrary level value
+
+Calculate the experience amount for an arbitrary level value, this can be done by passing a character's experience level conversion formula or by passing an experience level conversion formula independent of any character
+
 ``` C# 
 ExperienceAPI.CalculateExperience(characterID, level);
 ExperienceAPI.CalculateExperience(character, level);
@@ -51,6 +57,9 @@ ExperienceAPI.CalculateExperience(epxerienceLeveFormula, level);
 ```
 
 ###### Calculate the level for an arbitrary experience amount
+
+Calculate the level value amount for an arbitrary experience amount, this can be done by passing a character's experience level conversion formula or by passing an experience level conversion formula independent of any character
+
 ``` C# 
 ExperienceAPI.CalculateLevel(characterID, experience);
 ExperienceAPI.CalculateLevel(character, experience);
@@ -58,6 +67,9 @@ ExperienceAPI.CalculateLevel(epxerienceLeveFormula, experience);
 ```
 
 ###### Calculate the remaining experience until next level-up
+
+Calculate the remaining experience until next level-up, this can be done by passing a character's experience level conversion formula and it's current experience amount or by passing an experience level conversion formula and the current experience amount you want to derive the remaining quantity from
+
 ``` C# 
 ExperienceAPI.CalculateRemainingExperience(characterID);
 ExperienceAPI.CalculateRemainingExperience(character);
@@ -65,6 +77,9 @@ ExperienceAPI.CalculateRemainingExperience(experienceLevelFormula, currentExperi
 ```
 
 ###### Calculate the percentual experience progress until next level-up
+
+Calculate the percentual experience progress until next level-up, this can be done by passing a character's experience level conversion formula and it's current experience amount or by passing an experience level conversion formula and the current experience amount you want to derive the experience progress from
+
 ``` C# 
 ExperienceAPI.CalculateProgress(characterID);
 ExperienceAPI.CalculateProgress(character);
@@ -72,6 +87,8 @@ ExperienceAPI.CalculateProgress(experienceLevelFormula, currentExperience);
 ```
 
 ###### Calculate the experience delta between the current experience and an arbitrary level value
+
+Calculate the experience delta between the current experience and an arbitrary level value, this can be done by passing a character's experience level conversion formula or by passing an experience level conversion formula
 ``` C#
 ExperienceAPI.CalculateExperienceDelta(characterID, level);
 ExperienceAPI.CalculateExperienceDelta(character, level);
